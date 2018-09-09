@@ -1,0 +1,13 @@
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\WRS.Plugin.Email.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\WRS.Plugin.Email.pdb
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\obj\Debug\WRS.Plugin.Email.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\obj\Debug\WRS.Plugin.Email.pdb
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Email\obj\Debug\WRS.Plugin.Email.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Email\bin\Debug\WRS.Plugin.Email.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Email\bin\Debug\WRS.Plugin.Email.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Email\obj\Debug\WRS.Plugin.Email.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Email\obj\Debug\WRS.Plugin.Email.pdb

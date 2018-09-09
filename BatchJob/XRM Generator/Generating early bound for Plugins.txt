@@ -1,0 +1,4 @@
+For generating xrm.cs to be used by plugins or custom workflows
+  
+CrmSvcUtil.exe /url:https://crm2016.ncssppl.local/SPPLORG/XRMServices/2011/Organization.svc /domain:ncssppl /username:"ncssppl\crmdeploymentadmin" /password:SPPLdply@dm!n23 /out:"SPPL.Xrm.cs" /namespace:SPPL.Xrm /servicecontextname:XrmServiceContext /servicecontextprefix:Xrm /codewriterfilter:"BasicFilteringService,CrmSvcUtilExtensions"
+OptionSetEnumGenerator.exe

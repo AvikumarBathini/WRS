@@ -1,0 +1,73 @@
+----------------------------------------
+Timestamp: 18-Jun-18 15:32:50
+
+Message: System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MailChimpBatch.Program.Main(String[] args) in C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\Program.cs:line 72
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 13652
+
+Process Name: C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 18-Jun-18 15:33:58
+
+Message: System.Net.WebException: The remote name could not be resolved: 'us17.api.mailchimp.com'
+   at WRSDataMigrationInt.Infrastructure.HttpRequestUrl.GetRequest(String remoteUrl, String AuthHeader, Boolean isProxy, Int32 timeOut, String encode, String contentType) in C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs:line 110
+   at MailChimpBatch.Program.Main(String[] args) in C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\Program.cs:line 46
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 8528
+
+Process Name: C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 18-Jun-18 15:38:17
+
+Message: System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MailChimpBatch.Program.Main(String[] args) in C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\Program.cs:line 72
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 14728
+
+Process Name: C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,204 @@
+﻿<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            /*margin-top: 150px;*/
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        .approveButton {
+            background-color: #555555; /* Green */
+            border: none;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            /*margin: 4px 2px;*/
+            cursor: pointer;
+            float: right;
+        }
+
+        /*tr:nth-child(even) {
+            background-color: #dddddd;
+        }*/
+    </style>
+    <meta charset="utf-8">
+    <meta>
+</head>
+<body">
+
+    <!--<script src="../eam_/Scripts/jquery_1.9.1.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(LoadParks);
+        $(document).ready(OnPriceCalendarload);
+
+        var gloablPriceCalendarArray = [];
+        var globalParkArray = [];
+        var globalDayOfWeekArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var globalPriceListArray = [];
+
+        function OnPriceCalendarload() {
+            var req = new XMLHttpRequest();
+            req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_pricecalendars?$select=statecode,statuscode,wrs_calendardate,wrs_dayofweek,wrs_name,_wrs_park_value,wrs_pricecalendarncid,_wrs_pricelist_value,wrs_sourcefrom,createdon", false);
+            req.setRequestHeader("OData-MaxVersion", "4.0");
+            req.setRequestHeader("OData-Version", "4.0");
+            req.setRequestHeader("Accept", "application/json");
+            req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+            req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+            req.onreadystatechange = function () {
+                if (this.readyState === 4) {
+                    req.onreadystatechange = null;
+                    if (this.status === 200) {
+                        var results = JSON.parse(this.response);
+                        for (var i = 0; i < results.value.length; i++) {
+                            var PriceCalendar = {
+                                'CalendarDate': results.value[i]["wrs_calendardate"],
+                                'DayofWeek': results.value[i]["wrs_dayofweek"],
+                                'Park': results.value[i]["_wrs_park_value@OData.Community.Display.V1.FormattedValue"],
+                                'PriceCalendarId': results.value[i]["wrs_pricecalendarncid"],
+                                'PriceList': results.value[i]["_wrs_pricelist_value@OData.Community.Display.V1.FormattedValue"],
+                                'Status': results.value[i]["statecode@OData.Community.Display.V1.FormattedValue"],
+                                'CreatedOn': results.value[i]["createdon"]
+                            };
+                            var headerrow1 = $("<tr class='RecordHeader' id='" + results.value[i]["wrs_pricecalendarncid"] + "' />");
+                            headerrow1.append($("<td>" + new Date(results.value[i]["wrs_calendardate"]).toDateString() + "</td>"));
+                            headerrow1.append($("<td>" + results.value[i]["_wrs_park_value@OData.Community.Display.V1.FormattedValue"] + "</td>"));
+                            headerrow1.append($("<td>" + results.value[i]["_wrs_pricelist_value@OData.Community.Display.V1.FormattedValue"] + "</td>"));
+                            headerrow1.append($("<td>" + results.value[i]["wrs_dayofweek"] + "</td>"));
+                            headerrow1.append($("<td>" + new Date(results.value[i]["createdon"]).toDateString() + "</td>"));
+                            $("#pricecalendartable").append(headerrow1);
+                            gloablPriceCalendarArray.push(PriceCalendar);
+                        }
+                    } else {
+                        Xrm.Utility.alertDialog(this.statusText);
+                    }
+                }
+            };
+            req.send();
+        }
+
+        function LoadParks() {
+            debugger;
+            debugger;
+            var req = new XMLHttpRequest();
+            req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_parks()?$select=wrs_id,wrs_name,wrs_parkid", false);
+            req.setRequestHeader("OData-MaxVersion", "4.0");
+            req.setRequestHeader("OData-Version", "4.0");
+            req.setRequestHeader("Accept", "application/json");
+            req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+            req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+            req.onreadystatechange = function () {
+                if (this.readyState === 4) {
+                    req.onreadystatechange = null;
+                    if (this.status === 200) {
+                        var result = JSON.parse(this.response);
+
+                        for (var i = 0; i < results.value.length; i++) {
+                            var Park = {
+                                'WRSID': results.value[i]["wrs_id@OData.Community.Display.V1.FormattedValue"],
+                                'Name': results.value[i]["wrs_name"],
+                                'ParkID': results.value[i]["wrs_parkid"]
+                            };
+                            var litag = $("<li  id='" + results.value[i]["wrs_id@OData.Community.Display.V1.FormattedValue"] + ">" + results.value[i]["wrs_name"] + "</li>");
+                            $("#parktagid").append(litag);
+                            globalParkArray.push(Park);
+                        }
+
+                        var wrs_id = result["wrs_id"];
+                        var wrs_id_formatted = result["wrs_id@OData.Community.Display.V1.FormattedValue"];
+                        var wrs_name = result["wrs_name"];
+                        var wrs_parkid = result["wrs_parkid"];
+
+                    } else {
+                        Xrm.Utility.alertDialog(this.statusText);
+                    }
+                }
+            };
+            req.send();
+        }
+
+        function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("pricecalendartable");
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.getElementsByTagName("TR");
+                for (i = 1; i < (rows.length - 1) ; i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (dir == "asc") {
+                        if (new Date(x.innerHTML) > new Date(y.innerHTML)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (new Date(x.innerHTML) < new Date(y.innerHTML)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+
+    </script>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                            Park
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="parktagid" class="dropdown-menu"></ul>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table align="center" id="pricecalendartable">
+        <tbody>
+            <tr>
+                <th onclick="sortTable(0)">Calendar Date</th>
+                <th>Park</th>
+                <th>Price list</th>
+                <th>Day of Week</th>
+                <th onclick="sortTable(5)">Created On</th>
+            </tr>
+        </tbody>
+    </table>
+
+    </body>
+</html>

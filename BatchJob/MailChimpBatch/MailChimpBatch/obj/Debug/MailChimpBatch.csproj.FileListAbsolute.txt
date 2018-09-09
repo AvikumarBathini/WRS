@@ -1,0 +1,227 @@
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\System.Management.Automation.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\AppSettings.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\AppSettings.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\System.Management.Automation.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Config\AppSettings.config
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\System.Management.Automation.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+C:\Users\Administrator\Desktop\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\AppSettings.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\AppSettings.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\AppSettings.config
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+D:\Shared\Fernando\Latest Source Codes 20180302\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\AppSettings.config
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csprojResolveAssemblyReference.cache
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\obj\Debug\MailChimpBatch.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Config\AppSettings.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Config\ConnectionStrings.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Config\ExceptionHandling.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Config\LoggingConfiguration.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.MailChimpBatch.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\obj\Debug\MailChimpBatch.Sql.resources
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\obj\Debug\MailChimpBatch.csproj.GenerateResource.Cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\obj\Debug\MailChimpBatch.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\obj\Debug\MailChimpBatch.pdb

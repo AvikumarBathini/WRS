@@ -1,0 +1,60 @@
+----------------------------------------
+15-Aug-17 17:16:22
+ 
+ request url:https://us16.api.mailchimp.com/3.0/lists/c987155bff/members?apikey=778bcf775bb8bbaf2c2e8d0c9dde678c
+ 
+ Information 
+ Information 
+  
+ 5704 
+ C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe 
+
+----------------------------------------
+----------------------------------------
+15-Aug-17 17:20:27
+ 
+ request url:https://us16.api.mailchimp.com/3.0/lists/c987155bff/members?apikey=778bcf775bb8bbaf2c2e8d0c9dde678c
+ 
+ Information 
+ Information 
+  
+ 14036 
+ C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe 
+
+----------------------------------------
+----------------------------------------
+15-Aug-17 18:07:13
+ 
+ request url:https://us16.api.mailchimp.com/3.0/lists/c987155bff/members?apikey=778bcf775bb8bbaf2c2e8d0c9dde678c&offset=0&count=1000
+ 
+ Information 
+ Information 
+  
+ 2096 
+ C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe 
+
+----------------------------------------
+----------------------------------------
+15-Aug-17 18:07:41
+ 
+ request url:https://us16.api.mailchimp.com/3.0/lists/c987155bff/members?apikey=778bcf775bb8bbaf2c2e8d0c9dde678c&offset=1000&count=1000
+ 
+ Information 
+ Information 
+  
+ 2096 
+ C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe 
+
+----------------------------------------
+----------------------------------------
+15-Aug-17 18:08:54
+ 
+ request url:https://us16.api.mailchimp.com/3.0/lists/c987155bff/members?apikey=778bcf775bb8bbaf2c2e8d0c9dde678c&offset=0&count=1000
+ 
+ Information 
+ Information 
+  
+ 2096 
+ C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe 
+
+----------------------------------------

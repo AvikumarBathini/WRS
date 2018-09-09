@@ -1,0 +1,22 @@
+----------------------------------------
+Timestamp: 10-Mar-18 19:16:21
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at MailChimpBatch.Program.Main(String[] args) in D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\Program.cs:line 122
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 18288
+
+Process Name: D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------

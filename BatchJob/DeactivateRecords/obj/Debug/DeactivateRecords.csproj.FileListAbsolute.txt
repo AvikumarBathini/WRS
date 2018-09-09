@@ -1,0 +1,58 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+D:\NCS_WRS_DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+D:\Projects\WRS\DM\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\obj\Debug\DeactivateRecords.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\obj\Debug\DeactivateRecords.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\obj\Debug\DeactivateRecords.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\DeactivateRecords.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\DeactivateRecords.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\DeactivateRecords.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\DeactivateRecords\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll

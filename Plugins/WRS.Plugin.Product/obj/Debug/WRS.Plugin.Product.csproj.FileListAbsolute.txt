@@ -1,0 +1,33 @@
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.csprojResolveAssemblyReference.cache
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb

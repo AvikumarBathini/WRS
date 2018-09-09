@@ -1,0 +1,97 @@
+----------------------------------------
+Timestamp: 14-Aug-17 11:02:27
+
+Message: System.InvalidOperationException: Metadata contains a reference that cannot be resolved: 'http://wrsdev:443/WRS DEV - wrsdev/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.1'. ---> System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Description.MetadataExchangeClient.MetadataLocationRetriever.DownloadMetadata(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at WRSDataMigrationInt.Infrastructure.CRMHelper.CrmSvcManager.InitializationCRMService(Boolean isWindowsAuth) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\CRMHelper\CrmSvcManager.cs:line 57
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 10144
+
+Process Name: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14-Aug-17 11:22:04
+
+Message: System.InvalidOperationException: The username is not provided. Specify username in ClientCredentials.
+
+Server stack trace: 
+   at System.ServiceModel.ClientCredentialsSecurityTokenManager.CreateSecurityTokenProvider(SecurityTokenRequirement tokenRequirement, Boolean disableInfoCard)
+   at System.ServiceModel.ClientCredentialsSecurityTokenManager.CreateSecurityTokenProvider(SecurityTokenRequirement tokenRequirement)
+   at System.ServiceModel.Security.SecurityProtocol.AddSupportingTokenProviders(SupportingTokenParameters supportingTokenParameters, Boolean isOptional, IList`1 providerSpecList)
+   at System.ServiceModel.Security.SecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.RetrieveMultipleCore(QueryBase query)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.RetrieveMultiple(QueryBase query)
+   at WRSDataMigrationInt.Infrastructure.CRMHelper.CrmSvcManager.RetrieveMultiple(QueryExpression query) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\CRMHelper\CrmSvcManager.cs:line 153
+   at MailChimpBatch.Program.Main(String[] args) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\Program.cs:line 35
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 10136
+
+Process Name: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------

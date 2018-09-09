@@ -1,0 +1,111 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\InitialImport.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\InitialImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\InitialImport.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\obj\Debug\InitialImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\obj\Debug\InitialImport.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\InitialImport.exe.config
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\InitialImport.exe
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\InitialImport.pdb
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\NCS_WRS_DM\InitialImport\InitialImport\obj\Debug\InitialImport.exe
+D:\NCS_WRS_DM\InitialImport\InitialImport\obj\Debug\InitialImport.pdb
+D:\NCS_WRS_DM\InitialImport\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\InitialImport.exe.config
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\InitialImport.exe
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\InitialImport.pdb
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\Projects\WRS\DM\InitialImport\InitialImport\obj\Debug\InitialImport.exe
+D:\Projects\WRS\DM\InitialImport\InitialImport\obj\Debug\InitialImport.pdb
+D:\Projects\WRS\DM\InitialImport\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\InitialImport.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\InitialImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\InitialImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\obj\Debug\InitialImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\InitialImport\obj\Debug\InitialImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\InitialImport.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\InitialImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\InitialImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\obj\Debug\InitialImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\InitialImport\obj\Debug\InitialImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\InitialImport.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\InitialImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\InitialImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\bin\Debug\Newtonsoft.Json.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\obj\Debug\ContactImport.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\obj\Debug\InitialImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\InitialImport\obj\Debug\InitialImport.pdb

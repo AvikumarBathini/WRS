@@ -1,0 +1,41 @@
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe.config
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.pdb
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.exe
+D:\Projects\WRS\DM\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\PriceCalendar.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PriceCalendar\obj\Debug\PriceCalendar.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\PriceCalendar.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\PriceCalendar.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\PriceCalendar.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\obj\Debug\PriceCalendar.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\obj\Debug\PriceCalendar.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PriceCalendar\obj\Debug\PriceCalendar.pdb

@@ -1,0 +1,820 @@
+﻿<html>
+<head>
+    <style>
+        .pagination {
+            display: inline-block;
+        }
+
+            .pagination a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+                .pagination a.active {
+                    background-color: #337ab7;
+                    color: white;
+                    border-radius: 5px;
+                }
+
+                .pagination a:hover:not(.active) {
+                    background-color: #ddd;
+                    border-radius: 5px;
+                }
+
+        .blink_me {
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            /*margin-top: 150px;*/
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        .approveButton {
+            background-color: #555555; /* Green */
+            border: none;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            /*margin: 4px 2px;*/
+            cursor: pointer;
+            float: right;
+        }
+
+        .dropbtn {
+            background-color: #337ab7;
+            color: white;
+            padding: 6px 12px;
+            font-size: 13px;
+            border: none;
+            cursor: pointer;
+            border-color: #2e6da4;
+            margin-bottom: 0;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            width: 200px;
+            position: relative;
+            right: -10px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            right: -10px;
+            margin-bottom: 30px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            right: -10px;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                right: -10px;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                    right: -10px;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            right: -10px;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #337ab7;
+            right: -10px;
+        }
+
+        /*tr:nth-child(even) {
+            background-color: #dddddd;
+        }*/
+    </style>
+    <meta charset="utf-8">
+    <meta>
+</head>
+<body">
+    <script src="../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(LoadParks);
+        $(document).ready(LoadPriceLists);
+        $(document).ready(OnPriceCalendarload);
+        //$(document).ready(function () {
+        //    $('#js-onorafterdate').datepicker();
+        //    $('#js-onorbeforedate').datepicker();
+        //    $("#js-onorafterdate").change(OnAfterDateSelect);
+        //    $("#js-onorbeforedate").change(OnBeforeDateSelect);
+        //});
+        var globalParkSelected = '';
+        var globalPriceListSelected = '';
+        var globalDayOfWeekSelected = '';
+        var globalAfterDateSelected = '';
+        var globalBeforeDateSelected = '';
+        var gloablPriceCalendarArray = [];
+        var gloablFuturePriceCalendarArray = [];
+        var gloablPastPriceCalendarArray = [];
+        var tempPriceCalendarArray = [];
+        var globalParkArray = [];
+        var globalDayOfWeekArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var globalPriceListArray = [];
+        var globalFutureRecords = false;
+
+        function OnPriceCalendarload() {
+            debugger;
+            debugger;
+            debugger;
+            globalFutureRecords = true;
+            LoadFilterValues();
+
+
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+            var _today1 = new Date();
+            _today1 = _today1.setDate(_today1.getDate() - 1);
+            try {
+                var req = new XMLHttpRequest();
+                req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_pricecalendars?$select=statecode,statuscode,wrs_calendardate,wrs_dayofweek,wrs_name,_wrs_park_value,wrs_pricecalendarncid,_wrs_pricelist_value,wrs_sourcefrom,createdon&$filter=statecode eq 0 and wrs_calendardate ge " + (new Date(_today1)).toISOString() + "&$orderby=wrs_calendardate asc", true);
+                req.setRequestHeader("OData-MaxVersion", "4.0");
+                req.setRequestHeader("OData-Version", "4.0");
+                req.setRequestHeader("Accept", "application/json");
+                req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+                req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+                req.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        req.onreadystatechange = null;
+                        if (this.status === 200) {
+                            var results = JSON.parse(this.response);
+                            for (var i = 0; i < results.value.length; i++) {
+                                var cd = new Date(results.value[i]["wrs_calendardate"]);
+                                var ctd = new Date(results.value[i]["createdon"]);
+                                var PriceCalendar = {
+                                    'CalendarDate': cd,
+                                    'DayofWeek': results.value[i]["wrs_dayofweek"],
+                                    'Park': results.value[i]["_wrs_park_value@OData.Community.Display.V1.FormattedValue"],
+                                    'PriceCalendarId': results.value[i]["wrs_pricecalendarncid"],
+                                    'PriceList': results.value[i]["_wrs_pricelist_value@OData.Community.Display.V1.FormattedValue"],
+                                    'Status': results.value[i]["statecode@OData.Community.Display.V1.FormattedValue"],
+                                    'CreatedOn': ctd,
+                                    'PriceCalendarGuid': results.value[i]["wrs_pricecalendarid"]
+                                };
+                                gloablFuturePriceCalendarArray.push(PriceCalendar);
+                            }
+                            DesignPriceCalendarTable(gloablFuturePriceCalendarArray, 1);
+
+                        } else {
+                            Xrm.Utility.alertDialog(this.statusText);
+                        }
+                    }
+                };
+                req.send();
+            }
+            catch (err) {
+                parent.Xrm.Utility.alertDialog(err.message);
+            }
+        }
+
+        function PastRecords() {
+            var _today1 = new Date();
+            var pastDate = new Date();
+            pastDate.setFullYear(pastDate.getFullYear() - 1);
+            _today1.setDate(_today1.getDate() - 1);
+            try {
+                var req = new XMLHttpRequest();
+                req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_pricecalendars?$select=statecode,statuscode,wrs_calendardate,wrs_dayofweek,wrs_name,_wrs_park_value,wrs_pricecalendarncid,_wrs_pricelist_value,wrs_sourcefrom,createdon&$filter=statecode eq 0 and wrs_calendardate lt " + (new Date(pastDate)).toISOString() + " and wrs_calendardate ge " + (new Date(pastDate)).toISOString() + "&$orderby=wrs_calendardate desc", false);
+                req.setRequestHeader("OData-MaxVersion", "4.0");
+                req.setRequestHeader("OData-Version", "4.0");
+                req.setRequestHeader("Accept", "application/json");
+                req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+                req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+                req.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        req.onreadystatechange = null;
+                        if (this.status === 200) {
+                            var results = JSON.parse(this.response);
+                            for (var i = 0; i < results.value.length; i++) {
+                                var cd = new Date(results.value[i]["wrs_calendardate"]);
+                                var ctd = new Date(results.value[i]["createdon"]);
+                                var PriceCalendar = {
+                                    'CalendarDate': cd,
+                                    'DayofWeek': results.value[i]["wrs_dayofweek"],
+                                    'Park': results.value[i]["_wrs_park_value@OData.Community.Display.V1.FormattedValue"],
+                                    'PriceCalendarId': results.value[i]["wrs_pricecalendarncid"],
+                                    'PriceList': results.value[i]["_wrs_pricelist_value@OData.Community.Display.V1.FormattedValue"],
+                                    'Status': results.value[i]["statecode@OData.Community.Display.V1.FormattedValue"],
+                                    'CreatedOn': ctd,
+                                    'PriceCalendarGuid': results.value[i]["wrs_pricecalendarid"]
+                                };
+                                gloablPastPriceCalendarArray.push(PriceCalendar);
+                            }
+
+                        } else {
+                            parent.Xrm.Utility.alertDialog(this.statusText);
+                        }
+                    }
+                };
+                req.send();
+            } catch (err) {
+                parent.Xrm.Utility.alertDialog(err.message);
+            }
+        }
+
+        function LoadParks() {
+            var req = new XMLHttpRequest();
+            req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_parks()?$select=wrs_id,wrs_name,wrs_parkid", false);
+            req.setRequestHeader("OData-MaxVersion", "4.0");
+            req.setRequestHeader("OData-Version", "4.0");
+            req.setRequestHeader("Accept", "application/json");
+            req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+            req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+            req.onreadystatechange = function () {
+                if (this.readyState === 4) {
+                    req.onreadystatechange = null;
+                    if (this.status === 200) {
+                        var results = JSON.parse(this.response);
+
+                        for (var i = 0; i < results.value.length; i++) {
+                            var Park = {
+                                'WRSID': results.value[i]["wrs_id@OData.Community.Display.V1.FormattedValue"],
+                                'Name': results.value[i]["wrs_name"],
+                                'ParkID': results.value[i]["wrs_parkid"]
+                            };
+
+                            globalParkArray.push(Park);
+                        }
+                    } else {
+                        Xrm.Utility.alertDialog(this.statusText);
+                    }
+                }
+            };
+            req.send();
+        }
+
+        function LoadPriceLists() {
+            var req = new XMLHttpRequest();
+            req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/pricelevels?$select=name,pricelevelid,wrs_id", false);
+            req.setRequestHeader("OData-MaxVersion", "4.0");
+            req.setRequestHeader("OData-Version", "4.0");
+            req.setRequestHeader("Accept", "application/json");
+            req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+            req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+            req.onreadystatechange = function () {
+                if (this.readyState === 4) {
+                    req.onreadystatechange = null;
+                    if (this.status === 200) {
+                        var results = JSON.parse(this.response);
+                        for (var i = 0; i < results.value.length; i++) {
+                            var PriceList = {
+                                'WRSID': results.value[i]["wrs_id@OData.Community.Display.V1.FormattedValue"],
+                                'Name': results.value[i]["name"],
+                                'PriceListID': results.value[i]["pricelevelid"]
+                            };
+                            globalPriceListArray.push(PriceList);
+                        }
+                    } else {
+                        Xrm.Utility.alertDialog(this.statusText);
+                    }
+                }
+            };
+            req.send();
+        }
+
+        function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("pricecalendartable");
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.getElementsByTagName("TR");
+                for (i = 1; i < (rows.length - 1) ; i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (dir == "asc") {
+                        if (new Date(x.innerHTML) > new Date(y.innerHTML)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (new Date(x.innerHTML) < new Date(y.innerHTML)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+
+        function OnAfterDateSelect() {
+            debugger;
+            debugger;
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+
+            globalAfterDateSelected = $("#js-onorafterdate").val();
+            if (globalAfterDateSelected == '') {
+                $("#js-onorafterdate").val('On Or After');
+            }
+            if (globalAfterDateSelected != 'On Or After') {
+                $("#js-onorbeforedate").off("change");
+                $('#js-onorbeforedate').datepicker('setStartDate', globalAfterDateSelected);
+                $("#js-onorbeforedate").change(OnBeforeDateSelect);
+            }
+            FilterGlobalArray(1);
+        }
+
+        function OnBeforeDateSelect() {
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+
+            globalBeforeDateSelected = $("#js-onorbeforedate").val();
+            if (globalBeforeDateSelected == '') {
+                $("#js-onorbeforedate").val('On Or Before');
+            }
+            if (globalBeforeDateSelected != 'On Or Before') {
+                $("#js-onorafterdate").off("change");
+                $('#js-onorafterdate').datepicker('setEndDate', globalBeforeDateSelected);
+                $("#js-onorafterdate").change(OnAfterDateSelect);
+            }
+            FilterGlobalArray(1);
+        }
+
+        function OnParkSelect(e) {
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+
+            globalParkArray.forEach(function (element) {
+                if (element['WRSID'] == e)
+                    globalParkSelected = element['Name'];
+            });
+            if (e == 0)
+                globalParkSelected = '';
+            if (globalParkSelected == '')
+                $("#parkdropdownid").text('All Parks');
+            else
+                $("#parkdropdownid").text(globalParkSelected);
+            FilterGlobalArray(1);
+        }
+
+        function OnPriceListSelect(e) {
+            debugger;
+            debugger;
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+
+            globalPriceListSelected = '';
+            globalPriceListArray.forEach(function (element) {
+                if (element['WRSID'] == e)
+                    globalPriceListSelected = element['Name'];
+            });
+            if (e == 0)
+                globalPriceListSelected = '';
+            if (globalPriceListSelected == '')
+                $("#pricelistdropdown").text('All Price Lists');
+            else
+                $("#pricelistdropdown").text(globalPriceListSelected);
+            FilterGlobalArray(1);
+        }
+
+        function OnDayOfWeekSelect(e) {
+            // Disable everything
+            $('#pricecalendartable').prop('disabled', true);
+            // Display your loading image (centered on your screen)
+            $('#pricecalendartable').append("<img id='loading' style='top: 300%; position: absolute; height: 100px; width: 100px;left: 45%;' src='http://www.klk.com.my/wp-content/themes/klk/images/loading-ajax.gif' />");
+
+            if (e > 0)
+                globalDayOfWeekSelected = globalDayOfWeekArray[e - 1];
+            else
+                globalDayOfWeekSelected = '';
+            if (globalDayOfWeekSelected == '')
+                $("#dayofweekdropdown").text('All Days');
+            else
+                $("#dayofweekdropdown").text(globalDayOfWeekSelected);
+            FilterGlobalArray(1);
+        }
+
+        function FilterGlobalArray(count) {
+            if (globalFutureRecords)
+                gloablPriceCalendarArray = gloablFuturePriceCalendarArray;
+            else
+                gloablPriceCalendarArray = gloablPastPriceCalendarArray;
+
+            if (globalParkSelected != '')
+                tempPriceCalendarArray = gloablPriceCalendarArray.filter(function (el) {
+                    return el['Park'] == globalParkSelected;
+                });
+            else {
+                tempPriceCalendarArray = [];
+                gloablPriceCalendarArray.forEach(function (element) {
+                    tempPriceCalendarArray.push(element);
+                });
+            }
+
+            if (globalPriceListSelected != '')
+                if (tempPriceCalendarArray.length > 0)
+                    tempPriceCalendarArray = tempPriceCalendarArray.filter(function (el) {
+                        return el['PriceList'] == globalPriceListSelected;
+                    });
+
+            if (globalDayOfWeekSelected != '')
+                if (tempPriceCalendarArray.length > 0)
+                    tempPriceCalendarArray = tempPriceCalendarArray.filter(function (el) {
+                        return el['DayofWeek'] == globalDayOfWeekSelected;
+                    });
+
+            if (globalAfterDateSelected != '')
+                if (tempPriceCalendarArray.length > 0)
+                    tempPriceCalendarArray = tempPriceCalendarArray.filter(function (el) {
+                        return new Date(el['CalendarDate']) >= new Date(globalAfterDateSelected);
+                    });
+
+            if (globalBeforeDateSelected != '') {
+                debugger;
+                debugger;
+                var temp = new Date(globalBeforeDateSelected);
+                temp = temp.setDate(temp.getDate() + 1);
+                if (tempPriceCalendarArray.length > 0)
+                    tempPriceCalendarArray = tempPriceCalendarArray.filter(function (el) {
+                        return new Date(el['CalendarDate']) <= new Date(temp);
+                    });
+            }
+            DesignPriceCalendarTable(tempPriceCalendarArray, count);
+        }
+
+        function OnPriceCalendarEdit(e) {
+            debugger;
+            debugger;
+            var selecttag = "#select_" + e;
+            var edittag = "#edit_" + e;
+            var savetag = "#save_" + e;
+            var canceltag = "#cancel_" + e;
+            var ptag = "#p_" + e;
+            $(edittag).hide();
+            $(ptag).hide();
+            $(savetag).show();
+            $(canceltag).show();
+            $(selecttag).show();
+        }
+
+        function OnPriceCalendarSave(e) {
+            debugger;
+            debugger;
+            var rowtag = "tr_" + e;
+            var selectData = null;
+            var selecttag = "#select_" + e;
+            var selecttagtext = "#select_" + e + " option:selected";
+            var edittag = "#edit_" + e;
+            var savetag = "#save_" + e;
+            var canceltag = "#cancel_" + e;
+            var ptag = "#p_" + e;
+            gloablFuturePriceCalendarArray.forEach(function (element) {
+                if (element['PriceCalendarId'] == e) {
+                    selectData = element;
+                }
+            });
+            var selectedValue = $(selecttag).val();
+            var selectedText = $(selecttagtext).text();
+            if (selectData != null) {
+
+                var entity = {};
+                entity["wrs_pricelist@odata.bind"] = "/pricelevels(" + selectedValue + ")";
+                entity.wrs_sourcefrom = "crm";
+
+                var req = new XMLHttpRequest();
+                req.open("PATCH", Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_pricecalendars(" + selectData["PriceCalendarGuid"] + ")", false);
+                req.setRequestHeader("OData-MaxVersion", "4.0");
+                req.setRequestHeader("OData-Version", "4.0");
+                req.setRequestHeader("Accept", "application/json");
+                req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+                req.setRequestHeader("If-Match", "*");
+                req.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        req.onreadystatechange = null;
+                        if (this.status === 204) {
+                            gloablFuturePriceCalendarArray.forEach(function (element) {
+                                if (element['PriceCalendarId'] == e) {
+                                    element['PriceList'] = selectedText;
+                                };
+                            });
+                            if (tempPriceCalendarArray.length > 0) {
+                                tempPriceCalendarArray.forEach(function (element) {
+                                    if (element['PriceCalendarId'] == e) {
+                                        element['PriceList'] = selectedText;
+                                    };
+                                });
+                                DesignPriceCalendarTable(tempPriceCalendarArray, 1);
+                            }
+                            else
+                                DesignPriceCalendarTable(gloablFuturePriceCalendarArray, 1);
+                            Xrm.Utility.alertDialog("Update Success");
+                            //Success - No Return Data - Do Something
+                        } else {
+                            Xrm.Utility.alertDialog(this.statusText);
+                        }
+                    }
+                };
+                req.send(JSON.stringify(entity));
+
+            }
+        }
+
+        function OnPriceCalendarCancel(e) {
+            debugger;
+            debugger;
+            var selecttag = "#select_" + e;
+            var edittag = "#edit_" + e;
+            var savetag = "#save_" + e;
+            var canceltag = "#cancel_" + e;
+            var ptag = "#p_" + e;
+            $(edittag).show();
+            $(ptag).show();
+            $(savetag).hide();
+            $(canceltag).hide();
+            $(selecttag).hide();
+        }
+
+        function DesignPriceCalendarTable(array, count) {
+            var _today1 = new Date();
+            $('#pricecalendartable tbody').remove();
+            $("#totalrecordcount").text("Records - " + array.length);
+            var tbody = $("<tbody />");
+            if (array != null && array.length > 0) {
+                for (var j = 10 * (count - 1) ; j < count * 10; j++) {
+                    var element = array[j];
+                    if (element != null) {
+                        var _calendarDate = new Date(element["CalendarDate"]);
+                        var selectList = document.createElement("select");
+                        selectList.id = "select_" + element["PriceCalendarId"];
+                        selectList.style.display = "none";
+                        for (var i = 0; i < globalPriceListArray.length; i++) {
+                            var option = document.createElement("option");
+                            option.value = globalPriceListArray[i]["PriceListID"];
+                            option.text = globalPriceListArray[i]["Name"];
+                            selectList.appendChild(option);
+                        }
+
+                        var _editTag =
+                            "<p id='edit_" + element["PriceCalendarId"] + "' data-placement='top' data-toggle='tooltip' title='Edit'>" +
+                            "<button style='height: 25px;' id='" + element["PriceCalendarId"] + "' onclick='OnPriceCalendarEdit(this.id)' class='btn btn-primary btn-xs' data-title='Edit' data-toggle='modal' data-target='#edit' >" +
+                            "<span class='glyphicon glyphicon-pencil'>" +
+                            "</span></button></p>";
+                        var _savetag =
+                            "<p id='save_" + element["PriceCalendarId"] + "' style='display: none;' data-placement='top' data-toggle='tooltip' title='Save'>" +
+                           "<button id='" + element["PriceCalendarId"] + "' style='height: 25px;background-color: green;margin-bottom: -25px !important;display: inline-block;border-color: green !important;' onclick='OnPriceCalendarSave(this.id)' class='btn btn-primary btn-xs' data-title='Save' data-toggle='modal' data-target='#save'>" +
+                           "<span class='glyphicon glyphicon-save'>" +
+                           "</span></button></p>";
+                        var _cancelTag =
+                           "<p id='cancel_" + element["PriceCalendarId"] + "' style='display: none;' data-placement='top' data-toggle='tooltip' title='Cancel'>" +
+                           "<button id='" + element["PriceCalendarId"] + "' style='height: 25px;background-color: red;margin-top: -10px !important;margin-left: 37px !important;border-color: red !important;' onclick='OnPriceCalendarCancel(this.id)' class='btn btn-primary btn-xs' data-title='Cancel' data-toggle='modal' data-target='#cancel'>" +
+                           "<span class='glyphicon glyphicon-remove'>" +
+                           "</span></button></p>";
+
+                        var _priceList = "<p id='p_" + element["PriceCalendarId"] + "'>" + element["PriceList"] + "</p>" + selectList.outerHTML;
+                        var headerrow1 = $("<tr class='RecordHeader' id='tr_" + element["PriceCalendarId"] + "' />");
+                        headerrow1.append($("<td>" + element["PriceCalendarId"] + "</td>"));
+                        headerrow1.append($("<td>" + _calendarDate.toDateString() + "</td>"));
+                        headerrow1.append($("<td>" + element["Park"] + "</td>"));
+                        headerrow1.append($("<td>" + _priceList + "</td>"));
+                        headerrow1.append($("<td>" + element["DayofWeek"] + "</td>"));
+                        headerrow1.append($("<td>" + new Date(element["CreatedOn"]).toDateString() + "</td>"));
+                        if (globalFutureRecords)
+                            headerrow1.append($("<td>" + _editTag + _savetag + _cancelTag + "</td>"));
+                        else
+                            headerrow1.append($("<td></td>"));
+                        tbody.append(headerrow1);
+                        $("#pricecalendartable").append(tbody);
+                    }
+                }
+                $("#paginationid").show();
+                $("#paginationid a").each(function (index, element1) { $(element1).removeClass("active") });
+                var pageidd = "#page_" + count;
+                $(pageidd).addClass("active");
+            }
+            else {
+                $("#paginationid").hide();
+                alert("No price calendar records found.")
+            }
+            $('#pricecalendartable').prop('disabled', false);
+            $('#loading').remove();
+        }
+
+        function GetPastRecords() {
+            debugger;
+            debugger;
+            $("#pastrecordsButton").css('background-color', '#337ab7');
+            $("#futurerecordsButton").css('background-color', 'lavender');
+            if (gloablPastPriceCalendarArray == null || gloablPastPriceCalendarArray.length == 0)
+                PastRecords();
+            globalFutureRecords = false;
+            LoadFilterValues();
+            DesignPriceCalendarTable(gloablPastPriceCalendarArray, 1);
+        }
+
+        function GetFutureRecords() {
+            $("#pastrecordsButton").css('background-color', 'lavender');
+            $("#futurerecordsButton").css('background-color', '#337ab7');
+
+            var _today = new Date();
+            globalFutureRecords = true;
+            LoadFilterValues();
+            DesignPriceCalendarTable(gloablFuturePriceCalendarArray, 1);
+        }
+
+        function LoadFilterValues() {
+            $('#dayofweektagid a').remove();
+            var litag1 = $("<a href='javascript:;' onclick='OnDayOfWeekSelect(id);' id='0'>All Days</a>");
+            $("#dayofweektagid").append(litag1);
+            for (var i = 0; i < globalDayOfWeekArray.length; i++) {
+                var litag = $("<a href='javascript:;' onclick='OnDayOfWeekSelect(id);' id='" + (i + 1) + "'>" + globalDayOfWeekArray[i] + "</a>");
+                $("#dayofweektagid").append(litag);
+            }
+
+            $('#pricelisttagid a').remove();
+            var litag2 = $("<a href='javascript:;' onclick='OnPriceListSelect(id);' id='0'>All Price Lists</a>");
+            $("#pricelisttagid").append(litag2);
+            for (var j = 0; j < globalPriceListArray.length; j++) {
+                var litag = $("<a href='javascript:;' onclick='OnPriceListSelect(id);' id='" + globalPriceListArray[j]["WRSID"] + "'>" + globalPriceListArray[j]["Name"] + "</a>");
+                $("#pricelisttagid").append(litag);
+            }
+
+            $('#parktagid a').remove();
+            var litag3 = $("<a href='javascript:;' onclick='OnParkSelect(id);' id='0'>All Parks</a>");
+            $("#parktagid").append(litag3);
+            for (var g = 0; g < globalParkArray.length; g++) {
+                var litag = $("<a href='javascript:;' onclick='OnParkSelect(id);' id='" + globalParkArray[g]["WRSID"] + "'>" + globalParkArray[g]["Name"] + "</a>");
+                $("#parktagid").append(litag);
+            }
+
+            $('#js-onorafterdate').datepicker();
+            $('#js-onorbeforedate').datepicker();
+            $("#js-onorafterdate").off("change");
+            $("#js-onorbeforedate").off("change");
+            var today = new Date();
+            if (globalFutureRecords) {
+                $("#js-onorafterdate").val('On Or After');
+                $("#js-onorbeforedate").val('On Or Before');
+                $('#js-onorafterdate').datepicker('setStartDate', today);
+                $('#js-onorbeforedate').datepicker('setStartDate', today);
+            }
+            else {
+                var startDate = new Date("2010-01-01");
+                $("#js-onorafterdate").val('On Or After');
+                $("#js-onorbeforedate").val('On Or Before');
+                $('#js-onorafterdate').datepicker('setEndDate', today);
+                $('#js-onorbeforedate').datepicker('setEndDate', today);
+                $('#js-onorafterdate').datepicker('setStartDate', startDate);
+                $('#js-onorbeforedate').datepicker('setStartDate', startDate);
+            }
+
+            $("#js-onorafterdate").change(OnAfterDateSelect);
+            $("#js-onorbeforedate").change(OnBeforeDateSelect);
+        }
+
+        function LoadPagination(count) {
+            var pageclass = "#page_" + count;
+            $("#paginationid a").each(function (index, element) { $(element).removeClass("active") });
+            $(pageclass).addClass("active");
+            FilterGlobalArray(count);
+        }
+
+    </script>
+    <div id="parentDiv" style="width: 100%;">
+        <div class="col-md-3" id="leftDiv">
+            <div style="right: -10px; margin-bottom: 30px; float: left; position: relative;">
+                <button class="dropbtn" id="pastrecordsButton" style="width: 100px; background-color: lavender;" onclick="GetPastRecords()">Past</button>
+                <button class="dropbtn" id="futurerecordsButton" style="width: 100px;" onclick="GetFutureRecords()">Up-Coming</button>
+            </div>
+            <div style="right: -6px; margin-bottom: 30px; float: left; position: relative;">
+                <div class="col-sm-6">
+                    <div class="input-group date">
+                        <input class="form-control" id="js-onorafterdate" style="width: 158px;" type="text" value="On Or After">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="right: -6px; margin-bottom: 30px; float: left; position: relative;">
+                <div class="col-sm-6">
+                    <div class="input-group date">
+                        <input class="form-control" id="js-onorbeforedate" style="width: 158px;" type="text" value="On Or Before">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown" style="float: left;">
+                <button class="dropbtn" id="parkdropdownid">--Park--</button>
+                <div class="dropdown-content" id="parktagid" style="left: 0px;">
+                    <a id="0" onclick="OnParkSelect(id);" href="javascript:;">All Parks</a>
+                </div>
+            </div>
+            <div class="dropdown" style="float: left;">
+                <button class="dropbtn" id="pricelistdropdown">--Price List--</button>
+                <div class="dropdown-content" id="pricelisttagid" style="left: 0px;">
+                    <a id="0" onclick="OnPriceListSelect(id);" href="javascript:;">All Price Lists</a>
+                </div>
+            </div>
+            <div class="dropdown" style="float: left;">
+                <button class="dropbtn" id="dayofweekdropdown">--Day of Week--</button>
+                <div class="dropdown-content" id="dayofweektagid" style="left: 0px;">
+                    <a id="0" onclick="OnDayOfWeekSelect(id);" href="javascript:;">All Days</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9" id="rightdiv" style="position: relative;">
+            <table align="center" id="pricecalendartable">
+                <thead>
+                    <tr>
+                        <th style="font-size: 20px;">NC ID</th>
+                        <th style="font-size: 20px; cursor: pointer;" onclick="sortTable(0)">Calendar Date</th>
+                        <th style="font-size: 20px;">Park</th>
+                        <th style="font-size: 20px;">Price list</th>
+                        <th style="font-size: 20px;">Day of Week</th>
+                        <th style="font-size: 20px; cursor: pointer;" onclick="sortTable(5)">Created On</th>
+                        <!--<th class="blink_me" style="font-weight:bolder; font-family:'Times New Roman', Times, serif; color:red">Count</th>-->
+                        <th class="blink_me" id="totalrecordcount" style="color: red; font-size: 20px; font-weight: bolder;">
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <div class="pagination" id="paginationid" style="display:none">
+                <a href="#">«</a>
+                <a id="page_1" class="active" onclick="LoadPagination(1)" href="#">1</a>
+                <a id="page_2" onclick="LoadPagination(2)" href="#">2</a>
+                <a id="page_3" onclick="LoadPagination(3)" href="#">3</a>
+                <a id="page_4" onclick="LoadPagination(4)" href="#">4</a>
+                <a id="page_5" onclick="LoadPagination(5)" href="#">5</a>
+                <a id="page_6" onclick="LoadPagination(6)" href="#">6</a>
+                <a id="page_7" onclick="LoadPagination(7)" href="#">7</a>
+                <a id="page_8" onclick="LoadPagination(8)" href="#">8</a>
+                <a id="page_9" onclick="LoadPagination(9)" href="#">9</a>
+                <a id="page_10" onclick="LoadPagination(10)" href="#">10</a>
+                <a href="#">»</a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

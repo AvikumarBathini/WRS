@@ -1,0 +1,140 @@
+﻿using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.Serialization.Json;
+using System.ServiceModel;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WRS.Plugin.Product
+{
+
+    public class PushProductToEMPAction : IPlugin
+    {
+        public const string EMPApiServiceURL = "https://{0}/services/wrs/importer/getProduct?userName=nopcomserviceuser&secretKey=admin&productId={1}";
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            ITracingService tracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+            IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is EntityReference)
+            {
+                EntityReference targetEntity = (EntityReference)context.InputParameters["Target"];
+                IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+                IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
+                try
+                {
+                    Entity _product = service.Retrieve(targetEntity.LogicalName, targetEntity.Id, new Microsoft.Xrm.Sdk.Query.ColumnSet("productnumber", "wrs_published"));
+                    string productId = _product.GetAttributeValue<string>("productnumber");
+                    bool isPublished = _product.Contains("_product") ? _product.GetAttributeValue<bool>("wrs_published") : false;
+                    int timeOut = 60000; string encode = "UTF-8"; string contentType = "application/x-www-form-urlencoded";
+                    string serverDomain = GetConfirurationByParaGroupAndKey(service, "EMP_API", "apiServerDomainName");
+                    string url = string.Format(EMPApiServiceURL, serverDomain, productId);
+                    string str = "";
+                    System.Net.HttpWebRequest httpWebRequest = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
+                    byte[] bytes = new byte[1];
+                    httpWebRequest.Method = "Post";
+                    httpWebRequest.ContentType = contentType;
+                    httpWebRequest.ContentLength = 1;
+                    httpWebRequest.Timeout = timeOut;
+                    Stream requestStream = httpWebRequest.GetRequestStream();
+                    requestStream.Write(bytes, 0, 1);
+                    requestStream.Close();
+                    Stream responseStream = httpWebRequest.GetResponse().GetResponseStream();
+                    if (responseStream != null)
+                    {
+                        StreamReader streamReader = new StreamReader(responseStream, Encoding.GetEncoding(encode));
+                        str = streamReader.ReadToEnd();
+                        streamReader.Close();
+                        responseStream.Close();
+                    }
+                    else
+                        context.OutputParameters["IsPublished"] = false;
+
+                    using (var ms = new MemoryStream(Encoding.Unicode.GetBytes(str)))
+                    {
+                        DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(EMPProductResponse));
+                        EMPProductResponse productObj = (EMPProductResponse)deserializer.ReadObject(ms);
+                        context.OutputParameters["IsPublished"] = productObj.IsSuccess;
+                        throw new InvalidPluginExecutionException(productObj.IsSuccess.ToString() + "   " + isPublished.ToString())
+                        if (productObj.IsSuccess && isPublished)
+                        {
+                            Entity product = new Entity(targetEntity.LogicalName, targetEntity.Id);
+                            product.Attributes.Add("statecode", new OptionSetValue(0));
+                            product.Attributes.Add("statuscode", new OptionSetValue(1));
+                            service.Update(product);
+                        }
+                        else if (productObj.IsSuccess && !isPublished)
+                        {
+                            Entity product = new Entity(targetEntity.LogicalName, targetEntity.Id);
+                            product.Attributes.Add("statecode", new OptionSetValue(1));
+                            product.Attributes.Add("statuscode", new OptionSetValue(2));
+                            service.Update(product);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    context.OutputParameters["IsPublished"] = false;
+                    throw new InvalidPluginExecutionException(ex.Message);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Serialize Entity Object to JSON
+        /// </summary>
+        /// <param name="requestEntity"></param>
+        /// <returns></returns>
+        public string EntityToJson(object requestEntity)
+        {
+            var serializer = new DataContractJsonSerializer(requestEntity.GetType());
+            MemoryStream ms = new MemoryStream();
+            serializer.WriteObject(ms, requestEntity);
+            byte[] myByte = new byte[ms.Length];
+            ms.Position = 0;
+            ms.Read(myByte, 0, (int)ms.Length);
+            string dataString = Encoding.UTF8.GetString(myByte);
+            ms.Close();
+            return dataString;
+        }
+
+        /// <summary>
+        /// Method to retrieve Configuration Data
+        /// </summary>
+        /// <param name="service"></param>
+        /// <param name="parameterGroup"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public static string GetConfirurationByParaGroupAndKey(IOrganizationService service, string parameterGroup, string key)
+        {
+            string responseValue = "";
+            var query = new QueryExpression("wrs_configuration");
+            query.ColumnSet = new ColumnSet("wrs_value");
+            var condition1 = new ConditionExpression("wrs_name", ConditionOperator.Equal, parameterGroup);
+            var condition2 = new ConditionExpression("wrs_key", ConditionOperator.Equal, key);
+            query.Criteria.Conditions.Add(condition1);
+            query.Criteria.Conditions.Add(condition2);
+            var result = service.RetrieveMultiple(query);
+            if (result.Entities.Count > 0)
+            {
+                if (result.Entities[0].Contains("wrs_value"))
+                {
+                    responseValue = result.Entities[0].GetAttributeValue<string>("wrs_value");
+                }
+            }
+            return responseValue;
+        }
+    }
+
+    public class EMPProductResponse
+    {
+        public string productId { get; set; }
+        public string productType { get; set; }
+        public List<string> associateProductList { get; set; }
+        public string Message { get; set; }
+        public bool IsSuccess { get; set; }
+    }
+}

@@ -1,0 +1,97 @@
+﻿using Microsoft.Xrm.Sdk;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.Serialization.Json;
+using System.ServiceModel;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WRS.Plugin.Product
+{
+
+    public class PushProductToEMPAction : IPlugin
+    {
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            ITracingService tracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+            IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is EntityReference)
+            {
+                EntityReference targetEntity = (EntityReference)context.InputParameters["Target"];
+                IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+                IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
+                try
+                {
+                    int timeOut = 60000; string encode = "UTF-8"; string contentType = "application/x-www-form-urlencoded";
+                    string url = "https://uat-author.wrs.com.sg/services/wrs/importer/getProduct?userName=nopcomserviceuser&secretKey=admin&productId=62";
+                    string str = "";
+                    System.Net.HttpWebRequest httpWebRequest = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
+                    byte[] bytes = new byte[1];
+                    httpWebRequest.Method = "Post";
+                    httpWebRequest.ContentType = contentType;
+                    httpWebRequest.ContentLength = 1;
+                    httpWebRequest.Timeout = timeOut;
+                    Stream requestStream = httpWebRequest.GetRequestStream();
+                    requestStream.Write(bytes, 0, 1);
+                    requestStream.Close();
+                    Stream responseStream = httpWebRequest.GetResponse().GetResponseStream();
+                    if (responseStream != null)
+                    {
+                        StreamReader streamReader = new StreamReader(responseStream, Encoding.GetEncoding(encode));
+                        str = streamReader.ReadToEnd();
+                        streamReader.Close();
+                        responseStream.Close();
+                    }
+                    else
+                        throw new InvalidPluginExecutionException("Action 1234 " + str.ToString());
+
+                    using (var ms = new MemoryStream(Encoding.Unicode.GetBytes(str)))
+                    {
+                        DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(EMPProductResponse));
+                        EMPProductResponse productObj = (EMPProductResponse)deserializer.ReadObject(ms);
+                        throw new InvalidPluginExecutionException(productObj.IsSuccess.ToString() + "  " + productObj.productId);
+                        context.OutputParameters["IsPublished"] = true;
+                        if (!productObj.IsSuccess)
+                        {
+
+
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidPluginExecutionException(ex.Message);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Serialize Entity Object to JSON
+        /// </summary>
+        /// <param name="requestEntity"></param>
+        /// <returns></returns>
+        public string EntityToJson(object requestEntity)
+        {
+            var serializer = new DataContractJsonSerializer(requestEntity.GetType());
+            MemoryStream ms = new MemoryStream();
+            serializer.WriteObject(ms, requestEntity);
+            byte[] myByte = new byte[ms.Length];
+            ms.Position = 0;
+            ms.Read(myByte, 0, (int)ms.Length);
+            string dataString = Encoding.UTF8.GetString(myByte);
+            ms.Close();
+            return dataString;
+        }
+    }
+
+    public class EMPProductResponse
+    {
+        public string productId { get; set; }
+        public string productType { get; set; }
+        public List<string> associateProductList { get; set; }
+        public string Message { get; set; }
+        public bool IsSuccess { get; set; }
+    }
+}

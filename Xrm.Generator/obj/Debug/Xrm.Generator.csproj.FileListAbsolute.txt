@@ -1,0 +1,9 @@
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Xrm.Generator.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Xrm.Generator.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\obj\Debug\Xrm.Generator.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\obj\Debug\Xrm.Generator.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Xrm.Generator\obj\Debug\Xrm.Generator.pdb

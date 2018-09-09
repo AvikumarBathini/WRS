@@ -1,0 +1,26 @@
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb

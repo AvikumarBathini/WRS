@@ -1,0 +1,66 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+D:\NCS_WRS_DM\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+D:\Projects\WRS\DM\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.csprojResolveAssemblyReference.cache
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\ResourceManagementImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\ResourceManagementImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\obj\Debug\ResourceManagementImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ResourceManagementImport\obj\Debug\ResourceManagementImport.pdb

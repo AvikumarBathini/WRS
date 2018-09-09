@@ -1,0 +1,24 @@
+----------------------------------------
+Timestamp: 18-Jun-18 01:51:08
+
+Message: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.Xrm.Sdk.DataCollection`2.get_Item(TKey key)
+   at MailChimpBatch.Program.Main(String[] args) in C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\Program.cs:line 77
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 8644
+
+Process Name: C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MailChimpBatch\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------

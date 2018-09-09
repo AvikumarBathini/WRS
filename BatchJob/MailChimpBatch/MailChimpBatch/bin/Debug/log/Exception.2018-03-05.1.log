@@ -1,0 +1,75 @@
+----------------------------------------
+Timestamp: 16-Aug-17 11:21:09
+
+Message: upsert record fail,email address:dddasdasdghjkltyuiquwdhoahdlajdshweiuhdkjashfdkjsahdihkajsdhiuqhwiudhiuahsdiuashdkjashdiuhwqduaisdiuhqwid status: True name: testexception:A validation error occurred.  The length of the 'wrs_email' attribute of the 'wrs_subscription' entity exceeded the maximum allowed length of '100'. Trace:
+[Microsoft.Crm.ObjectModel: Microsoft.Crm.ObjectModel.TargetAttributeValidationPlugin]
+[c754fdb4-ef2f-4f2c-b49f-186214ab4dcd: TargetAttributeValidationPlugin]
+
+
+
+Category: Exception
+
+Severity: Information
+
+Title:
+
+Machine: ECRMAPPDV01
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 4248
+
+Process Name: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 05-Mar-18 12:19:45
+
+Message: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   at MailChimpBatch.Program.Main(String[] args) in D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\Program.cs:line 78
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 9088
+
+Process Name: D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 05-Mar-18 12:37:30
+
+Message: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.Xrm.Sdk.DataCollection`2.get_Item(TKey key)
+   at MailChimpBatch.Program.Main(String[] args) in D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\Program.cs:line 109
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: NCS-060916JT03
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 13204
+
+Process Name: D:\Shared\Fernando\Latest Source Codes 20180302\Siraj\WRSDataMigration 20170922 1500\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------

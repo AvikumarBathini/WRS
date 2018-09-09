@@ -1,0 +1,96 @@
+----------------------------------------
+14-Sep-17 23:34:53
+ 
+ UpdateResourceManager request from plugin, request data:{'ApiSecretKey':'f98y119k107i99a107k118j110g99','CalendarDate':null,'CalendarId':956,'CalendarTypeId':1,'CustomerId':933821,'NewPriceGroupId':10}
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:35:03
+ 
+ PriceCalendarEdit request from CRMAPI, request data:{"apiSecretKey":"f98y119k107i99a107k118j110g99","calendarDate":null,"calendarId":956,"calendarTypeId":1,"customerId":933821,"newPriceGroupId":10,"storeId":1} request URL:http://10.1.1.111:8888/Plugins/XcellenceIt.Plugin.Misc.NopRestApi/RemoteService/WebService.svc/PriceCalendarEdit
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:37:17
+ 
+ UpdateResourceManager request from plugin, request data:{'ApiSecretKey':'f98y119k107i99a107k118j110g99','CalendarDate':null,'CalendarId':956,'CalendarTypeId':1,'CustomerId':933821,'NewPriceGroupId':10}
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:37:17
+ 
+ PriceCalendarEdit request from CRMAPI, request data:{"apiSecretKey":"f98y119k107i99a107k118j110g99","calendarDate":null,"calendarId":956,"calendarTypeId":1,"customerId":933821,"newPriceGroupId":10,"storeId":1} request URL:http://10.1.1.111:8888/Plugins/XcellenceIt.Plugin.Misc.NopRestApi/RemoteService/WebService.svc/PriceCalendarEdit
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:53:36
+ 
+ UpdateResourceManager request from plugin, request data:{'ApiSecretKey':'f98y119k107i99a107k118j110g99','CalendarDate':null,'CalendarId':956,'CalendarTypeId':1,'CustomerId':933821,'NewPriceGroupId':10}
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:53:36
+ 
+ PriceCalendarEdit request from CRMAPI, request data:{"apiSecretKey":"f98y119k107i99a107k118j110g99","calendarDate":null,"calendarId":956,"calendarTypeId":1,"customerId":933821,"newPriceGroupId":10,"storeId":1} request URL:http://10.1.1.111:8888/Plugins/XcellenceIt.Plugin.Misc.NopRestApi/RemoteService/WebService.svc/PriceCalendarEdit
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:54:11
+ 
+ UpdateResourceManager request from plugin, request data:{'ApiSecretKey':'f98y119k107i99a107k118j110g99','CalendarDate':null,'CalendarId':956,'CalendarTypeId':1,'CustomerId':933821,'NewPriceGroupId':10}
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------
+----------------------------------------
+14-Sep-17 23:54:11
+ 
+ PriceCalendarEdit request from CRMAPI, request data:{"apiSecretKey":"f98y119k107i99a107k118j110g99","calendarDate":null,"calendarId":956,"calendarTypeId":1,"customerId":933821,"newPriceGroupId":10,"storeId":1} request URL:http://10.1.1.111:8888/Plugins/XcellenceIt.Plugin.Misc.NopRestApi/RemoteService/WebService.svc/PriceCalendarEdit
+ 
+ Information 
+ Information 
+  
+ 10564 
+ c:\windows\system32\inetsrv\w3wp.exe 
+
+----------------------------------------

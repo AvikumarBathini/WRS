@@ -1,0 +1,5 @@
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.WebResource\bin\Debug\WRS.WebResource.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.WebResource\bin\Debug\WRS.WebResource.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.WebResource\obj\Debug\WRS.WebResource.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.WebResource\obj\Debug\WRS.WebResource.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.WebResource\obj\Debug\WRS.WebResource.pdb

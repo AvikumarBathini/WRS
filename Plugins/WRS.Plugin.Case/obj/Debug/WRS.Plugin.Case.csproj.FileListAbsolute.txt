@@ -1,0 +1,15 @@
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\WRS.Plugin.Case.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\WRS.Plugin.Case.pdb
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.dll
+D:\Projects\WRS\Plugins\WRS.Plugin\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\bin\Debug\WRS.Plugin.Case.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\bin\Debug\WRS.Plugin.Case.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Case\obj\Debug\WRS.Plugin.Case.pdb

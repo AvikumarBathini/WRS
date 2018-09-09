@@ -1,0 +1,1 @@
+CrmSvcUtil.exe /url:https://wrsdev.api.crm5.dynamics.com/XRMServices/2011/Organization.svc /username:ncs@wrs.com.sg /password:c6aY=huk /out:"Xrm.cs" /namespace:WRS.Xrm /servicecontextname:XrmServiceContext /servicecontextprefix:Xrm /codewriterfilter:"BasicFilteringService,CrmSvcUtilExtensions"

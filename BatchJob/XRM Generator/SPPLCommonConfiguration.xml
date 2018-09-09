@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPPLCommonConfiguration>
+  <CRM>
+    <ServerURL>https://wrsdev.api.crm5.dynamics.com/XRMServices/2011/Organization.svc</ServerURL>
+    <Username>ncs@wrs.com.sg</Username>
+    <Password>c6aY=huk</Password>
+  </CRM>
+  <Parature>
+    <ServerURL>XXXX</ServerURL>
+    <Token>xxxx</Token>
+    <AccountID>xxxx</AccountID>
+    <DeptID>xxxx</DeptID>
+  </Parature>
+</SPPLCommonConfiguration>

@@ -1,0 +1,40 @@
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\ProductTags.exe.config
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\ProductTags.exe
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\ProductTags.pdb
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\ProductTags\obj\Debug\ProductTags.exe
+D:\Projects\WRS\DM\InitialImport\ProductTags\obj\Debug\ProductTags.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\ProductTags.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\ProductTags.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\ProductTags.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\obj\Debug\ProductTags.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductTags\obj\Debug\ProductTags.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\ProductTags.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\ProductTags.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\ProductTags.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\obj\Debug\ProductTags.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductTags\obj\Debug\ProductTags.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\ProductTags.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\ProductTags.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\ProductTags.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\obj\Debug\ProductTags.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductTags\obj\Debug\ProductTags.pdb

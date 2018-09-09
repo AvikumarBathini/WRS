@@ -1,0 +1,112 @@
+----------------------------------------
+Timestamp: 14-Sep-17 23:35:29
+
+Message: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.1.1.111:8888
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at WRSDataMigrationInt.Infrastructure.HttpRequestUrl.PostRequest(String remoteUrl, String postData, Int32 timeOut, String encode, String contentType) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs:line 19
+   at WRS.CRMInterface.WebAPI.Controllers.CRMInterfaceController.PriceCalendarEdit() in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\Controllers\CRMInterfaceController.cs:line 767
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: /LM/W3SVC/18/ROOT-2-131498768792508564
+
+ProcessId: 10564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14-Sep-17 23:37:38
+
+Message: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.1.1.111:8888
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at WRSDataMigrationInt.Infrastructure.HttpRequestUrl.PostRequest(String remoteUrl, String postData, Int32 timeOut, String encode, String contentType) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs:line 19
+   at WRS.CRMInterface.WebAPI.Controllers.CRMInterfaceController.PriceCalendarEdit() in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\Controllers\CRMInterfaceController.cs:line 767
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: /LM/W3SVC/18/ROOT-2-131498768792508564
+
+ProcessId: 10564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14-Sep-17 23:53:57
+
+Message: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.1.1.111:8888
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at WRSDataMigrationInt.Infrastructure.HttpRequestUrl.PostRequest(String remoteUrl, String postData, Int32 timeOut, String encode, String contentType) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs:line 19
+   at WRS.CRMInterface.WebAPI.Controllers.CRMInterfaceController.PriceCalendarEdit() in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\Controllers\CRMInterfaceController.cs:line 767
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: /LM/W3SVC/18/ROOT-4-131498780109141341
+
+ProcessId: 10564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14-Sep-17 23:54:32
+
+Message: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.1.1.111:8888
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at WRSDataMigrationInt.Infrastructure.HttpRequestUrl.PostRequest(String remoteUrl, String postData, Int32 timeOut, String encode, String contentType) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs:line 19
+   at WRS.CRMInterface.WebAPI.Controllers.CRMInterfaceController.PriceCalendarEdit() in C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\Controllers\CRMInterfaceController.cs:line 767
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: /LM/W3SVC/18/ROOT-4-131498780109141341
+
+ProcessId: 10564
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,106 @@
+var initialVal_status;
+var initialVal_confirmStatus;
+var initialVal_qty;
+var changeAdjustQty = false;
+var changeStatus = false;
+
+function OnLoad() {
+	initialVal_status = Xrm.Page.getAttribute('wrs_status').getValue();
+	initialVal_confirmStatus = Xrm.Page.getAttribute('wrs_confirmstatus').getValue();
+	initialVal_qty = Xrm.Page.getAttribute('wrs_quantity').getValue();
+}
+
+function AdjustQtyOnChange() {
+	var additional = Xrm.Page.getAttribute('wrs_additional').getValue();
+	if (additional != null) {
+		initialVal_qty = additional;
+	}
+
+	var adjustqty = Xrm.Page.getAttribute('wrs_adjustquantity').getValue();
+	var qty = Xrm.Page.getAttribute('wrs_quantity').getValue();
+
+	if (adjustqty === parseInt(adjustqty, 10)) {
+		if (!changeStatus) {
+			Xrm.Page.getAttribute("wrs_confirmstatus").setValue(0);
+		}
+
+		//Xrm.Page.getAttribute("wrs_quantity").setValue(qty + adjustqty);
+		Xrm.Page.getAttribute("wrs_quantity").setValue(initialVal_qty + adjustqty);
+		changeAdjustQty = true;
+
+	} else {
+		if (!changeStatus) {
+			Xrm.Page.getAttribute("wrs_confirmstatus").setValue(initialVal_confirmStatus);
+		}
+		Xrm.Page.getAttribute("wrs_quantity").setValue(initialVal_qty);
+		changeAdjustQty = false;
+
+	}
+}
+
+function OnsaveAlert(context) {
+	var status = Xrm.Page.getAttribute('wrs_confirmstatus').getValue();
+
+	if (status == 0) {
+		Xrm.Utility.alertDialog("Please change the Confirm Status to Published for confirming your changes", function () {
+			Xrm.Page.getControl("wrs_confirmstatus").setDisabled(false);
+			context.getEventArgs().preventDefault();
+		});
+	} else {
+		//Xrm.Page.data.refresh(true);
+		//Xrm.Page.data.save().then(successCallback, errorCallback);
+		Xrm.Page.getAttribute("wrs_adjustquantity").setValue(null);
+		changeAdjustQty = false;
+		changeStatus = false;
+		//OnLoad();
+		initialVal_status = Xrm.Page.getAttribute('wrs_status').getValue();
+		initialVal_confirmStatus = Xrm.Page.getAttribute('wrs_confirmstatus').getValue();
+	}
+}
+
+function successCallback() {
+	Xrm.Page.getAttribute("wrs_adjustquantity").setValue(null);
+	changeAdjustQty = false;
+	changeStatus = false;
+	OnLoad();
+}
+
+function errorCallback() {
+	/* var adjustqty = Xrm.Page.getAttribute('wrs_adjustquantity').getValue();
+	var qty = Xrm.Page.getAttribute('wrs_quantity').getValue(); */
+
+	Xrm.Page.getAttribute("wrs_quantity").setValue(initialVal_qty);
+	Xrm.Page.getAttribute("wrs_adjustquantity").setValue(null);
+}
+
+function StatusOnChange() {
+
+	if (!changeAdjustQty) {
+		var statusVal = Xrm.Page.getAttribute('wrs_status').getValue();
+
+		if (statusVal != initialVal_status) {
+			Xrm.Page.getAttribute("wrs_confirmstatus").setValue(0);
+			changeStatus = true;
+		} else if (statusVal == initialVal_status) {
+			Xrm.Page.getAttribute("wrs_confirmstatus").setValue(initialVal_confirmStatus);
+			changeStatus = false;
+		}
+	} else {
+		var statusVal = Xrm.Page.getAttribute('wrs_status').getValue();
+
+		if (statusVal != initialVal_status) {
+			changeStatus = true;
+		} else if (statusVal == initialVal_status) {
+			changeStatus = false;
+		}
+	}
+}
+
+function SetSourceFrom() {
+	var sourcefield = Xrm.Page.getAttribute("wrs_sourcefrom");
+	if (sourcefield) {
+		sourcefield.setValue("crm");
+		sourcefield.setSubmitMode("always");
+		Xrm.Page.data.entity.save();
+	}
+}

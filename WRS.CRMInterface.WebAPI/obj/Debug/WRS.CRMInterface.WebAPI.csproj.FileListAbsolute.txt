@@ -1,0 +1,744 @@
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Owin.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Management.Automation.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Configs\AppSettings.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Configs\ConnectionStrings.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Configs\ExceptionHandling.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Configs\LoggingConfiguration.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Owin.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Management.Automation.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+D:\Sharefolder\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\otherProject\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Owin.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Management.Automation.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+C:\Users\Administrator\Desktop\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Owin.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+D:\Organizations\Wildlife Reserves SG\Source Code\WRS Web API\WRS_Data_Migration\WRSDataMigration\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Owin.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+D:\Projects\WRS\Web API - Original\WRSDataMigration 20170922 1500\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Owin.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\ApplicationInsights.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\csc.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\vbc.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WRS.CRMInterface.WebAPI.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\EntityFramework.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Owin.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WebGrease.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Practices.Unity.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\WRSDataMigrationInt.Infrastructure.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Helpers.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Mvc.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Optimization.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Razor.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\EntityFramework.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\bin\System.Web.Http.Owin.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\WRS.CRMInterface.WebAPI\obj\Debug\WRS.CRMInterface.WebAPI.pdb

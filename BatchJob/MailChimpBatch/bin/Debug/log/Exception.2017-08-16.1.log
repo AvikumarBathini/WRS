@@ -1,0 +1,66 @@
+----------------------------------------
+Timestamp: 15-Aug-17 11:37:17
+
+Message: upsert record fail,email address:test@173.com status:subscribed name:test
+
+Category: Exception
+
+Severity: Information
+
+Title:
+
+Machine: ECRMAPPDV01
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 280
+
+Process Name: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 15-Aug-17 11:37:18
+
+Message: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Xrm.Sdk.Deployment, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.Xrm.Sdk.Deployment, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at Microsoft.Xrm.Tooling.Connector.CrmLogEntry.GetExceptionDetail(Object objException, StringBuilder sw, Int32 level, StringBuilder lastErrorMsg)
+   at Microsoft.Xrm.Tooling.Connector.CrmLogEntry.Log(String message, TraceEventType eventType, Exception exception)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.Execute(OrganizationRequest request)
+   at MailChimpBatch.Program.Main(String[] args) in C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\Program.cs:line 52
+
+=== Pre-bind state information ===
+LOG: DisplayName = Microsoft.Xrm.Sdk.Deployment, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/otherProject/WRS_Data_Migration/WRSDataMigration/MailChimpBatch/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Microsoft.Xrm.Tooling.Connector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe.Config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Microsoft.Xrm.Sdk.Deployment, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/otherProject/WRS_Data_Migration/WRSDataMigration/MailChimpBatch/bin/Debug/Microsoft.Xrm.Sdk.Deployment.DLL.
+LOG: Attempting download of new URL file:///C:/otherProject/WRS_Data_Migration/WRSDataMigration/MailChimpBatch/bin/Debug/Microsoft.Xrm.Sdk.Deployment/Microsoft.Xrm.Sdk.Deployment.DLL.
+LOG: Attempting download of new URL file:///C:/otherProject/WRS_Data_Migration/WRSDataMigration/MailChimpBatch/bin/Debug/Microsoft.Xrm.Sdk.Deployment.EXE.
+LOG: Attempting download of new URL file:///C:/otherProject/WRS_Data_Migration/WRSDataMigration/MailChimpBatch/bin/Debug/Microsoft.Xrm.Sdk.Deployment/Microsoft.Xrm.Sdk.Deployment.EXE.
+
+
+Category: Exception
+
+Severity: Error
+
+Title:WRSDataMigration Exception Handling
+
+Machine: ECRMAPPDV01
+
+App Domain: MailChimpBatch.vshost.exe
+
+ProcessId: 280
+
+Process Name: C:\otherProject\WRS_Data_Migration\WRSDataMigration\MailChimpBatch\bin\Debug\MailChimpBatch.vshost.exe
+
+Extended Properties: 
+----------------------------------------
