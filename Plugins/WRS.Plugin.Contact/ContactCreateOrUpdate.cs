@@ -2,6 +2,8 @@
 using Microsoft.Xrm.Sdk.Query;
 using System;
 using System.IO;
+using System.Net;
+using System.Net.Security;
 using System.Runtime.Serialization.Json;
 using System.ServiceModel;
 using System.Text;
@@ -14,20 +16,36 @@ namespace WRS.Plugin.Product
     {
         public void Execute(IServiceProvider serviceProvider)
         {
+            // Extract the tracing service for use in debugging sandboxed plug-ins.
+            // If you are not registering the plug-in in the sandbox, then you do
+            // not have to add any tracing service related code.
             ITracingService tracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+
+            // Obtain the execution context from the service provider.
             IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
-            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity && context.Depth == 1)
+            if (context.Depth > 3)
+                return;
+
+            // The InputParameters collection contains all the data passed in the message request.
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
             {
+                // Obtain the target entity from the input parameters.
                 Entity targetEntity = (Entity)context.InputParameters["Target"];
+
+                // Verify that the target entity represents an entity type you are expecting. 
+                // For example, an account. If not, the plug-in was not registered correctly.
                 if (targetEntity.LogicalName != Constants.WRSEntityName.Entity_Contact || (context.MessageName != Constants.MessageTypes.MSG_UPDATE && context.MessageName != Constants.MessageTypes.MSG_CREATE))
                     return;
                 if (targetEntity.Contains("wrs_apiresponse")) return;
+                // Obtain the organization service reference which you will need for
+                // web service calls.
                 IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
                 IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
                 try
                 {
                     var postImage = new Entity();
                     var sourecFrom = "";
+                    var wrs_id = "";
                     if (targetEntity.Contains("wrs_sourcefrom"))
                     {
                         sourecFrom = targetEntity.GetAttributeValue<string>("wrs_sourcefrom");
@@ -37,11 +55,12 @@ namespace WRS.Plugin.Product
                         postImage = context.PostEntityImages["PostImage"];
                         if (postImage != null)
                         {
-                            sourecFrom = postImage.GetAttributeValue<string>("wrs_sourcefrom");
+                            wrs_id = postImage.Contains("wrs_id") ? postImage.GetAttributeValue<int>("wrs_id").ToString() : string.Empty;
+                            sourecFrom = postImage.Contains("wrs_sourcefrom") ? postImage.GetAttributeValue<string>("wrs_sourcefrom") : string.Empty;
                         }
                     }
-
-                    if (sourecFrom.ToLower() != "nc")
+                    //if (string.IsNullOrEmpty(sourecFrom) || sourecFrom != "crm") return;
+                    if (string.IsNullOrEmpty(sourecFrom) || sourecFrom.ToLower() == "crm" || string.IsNullOrEmpty(wrs_id))
                     {
                         if (targetEntity.Contains("emailaddress1") || targetEntity.Contains("telephone1") || targetEntity.Contains("firstname") || targetEntity.Contains("lastname"))
                         {
@@ -54,30 +73,23 @@ namespace WRS.Plugin.Product
                             var getEncodeByte = Convert.FromBase64String(password);
                             password = Encoding.UTF8.GetString(getEncodeByte);
                             var customerId = GetConfirurationByParaGroupAndKey(service, "WRS_API", "customerId");
-                            string emailAddress = (postImage != null && postImage.Contains("emailaddress1")) ? postImage.GetAttributeValue<string>("emailaddress1").Replace(" ", "") : (targetEntity.Contains("emailaddress1") ? targetEntity.GetAttributeValue<string>("emailaddress1").Replace(" ", "") : string.Empty);
-                            string phoneNumber = (postImage != null && postImage.Contains("telephone1")) ? postImage.GetAttributeValue<string>("telephone1").Replace(" ", "") : (targetEntity.Contains("telephone1") ? targetEntity.GetAttributeValue<string>("telephone1").Replace(" ", "") : string.Empty);
-                            string firstName = (postImage != null && postImage.Contains("firstname")) ? postImage.GetAttributeValue<string>("firstname") : (targetEntity.Contains("firstname") ? targetEntity.GetAttributeValue<string>("firstname") : string.Empty);
-                            string lastName = (postImage != null && postImage.Contains("lastname")) ? postImage.GetAttributeValue<string>("lastname") : (targetEntity.Contains("lastname") ? targetEntity.GetAttributeValue<string>("lastname") : string.Empty);
-                            string ncid = (postImage != null && postImage.Contains("wrs_id")) ? postImage.GetAttributeValue<int>("wrs_id").ToString() : (targetEntity.Contains("wrs_id") ? targetEntity.GetAttributeValue<int>("wrs_id").ToString() : string.Empty);
+
+                            string emailAddress = targetEntity.Contains("emailaddress1") ? targetEntity.GetAttributeValue<string>("emailaddress1") : (postImage != null && postImage.Contains("emailaddress1") ? postImage.GetAttributeValue<string>("emailaddress1") : string.Empty);
+                            string phoneNumber = targetEntity.Contains("telephone1") ? targetEntity.GetAttributeValue<string>("telephone1") : (postImage != null && postImage.Contains("telephone1") ? postImage.GetAttributeValue<string>("telephone1") : string.Empty);
+                            string firstName = targetEntity.Contains("firstname") ? targetEntity.GetAttributeValue<string>("firstname") : (postImage != null && postImage.Contains("firstname") ? postImage.GetAttributeValue<string>("firstname") : string.Empty);
+                            string lastName = targetEntity.Contains("lastname") ? targetEntity.GetAttributeValue<string>("lastname") : (postImage != null && postImage.Contains("lastname") ? postImage.GetAttributeValue<string>("lastname") : string.Empty);
+
                             if (string.IsNullOrEmpty(emailAddress) && string.IsNullOrEmpty(phoneNumber))
-                            {
-                                throw new InvalidPluginExecutionException("Please provide Email or Phone Number.");
-                            }
-                            if (context.MessageName == Constants.MessageTypes.MSG_UPDATE && string.IsNullOrEmpty(ncid))
-                            {
-                                throw new InvalidPluginExecutionException("Please provide NC ID.");
-                            }
+                                return;
 
                             var requestEntity = new UpsertCustomerFromPluginModel
                             {
                                 ApiSecretKey = Constants.WEBAPIURL.ApiSecretKey,
-                                EmailAddress = emailAddress,
-                                FirstName = firstName,
-                                LastName = lastName,
-                                PhoneNumber = phoneNumber,
-                                CustomerId = string.IsNullOrEmpty(customerId) ? Constants.WEBAPIURL.CustomerId : Convert.ToInt32(customerId),
-                                NCId = string.IsNullOrEmpty(ncid) ? Constants.WEBAPIURL.NCId : Convert.ToInt32(ncid)
-
+                                EmailAddress = emailAddress.Trim(),
+                                FirstName = firstName.Trim(),
+                                LastName = lastName.Trim(),
+                                PhoneNumber = phoneNumber.Trim(),
+                                CustomerId = string.IsNullOrEmpty(customerId) ? Constants.WEBAPIURL.CustomerId : Convert.ToInt32(customerId)
                             };
                             var requestData = EntityToJson(requestEntity);//new JavaScriptSerializer().Serialize(requestEntity);//JsonConvert.SerializeObject(requestEntity);
                             var requestApiUrl = GetApiDoaminName(service, Constants.WEBAPIURL.APIURL_UpsertCustomer);
@@ -93,8 +105,13 @@ namespace WRS.Plugin.Product
                             {
                                 userName = authUserName;
                             }
+
+                            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+                            ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(delegate { return true; });
+
                             //var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, authUserName.Split('\\')[1], password, authUserName.Split('\\')[0]);
                             var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, userName, password, domain);
+
                             if (!string.IsNullOrEmpty(response))
                             {
                                 var contact = new Entity(Constants.WRSEntityName.Entity_Contact);
@@ -107,25 +124,38 @@ namespace WRS.Plugin.Product
                                 {
                                     contact["wrs_apiresponse"] = response;
                                 }
-                                service.Update(contact);
                                 var responseEntity = Deserialize<ResponseModel.UpsertCustomerResult>(response);
                                 if (responseEntity.IsSuccess)
                                 {
-                                    if (context.MessageName == Constants.MessageTypes.MSG_CREATE)
-                                    {
-                                        contact["wrs_id"] = int.Parse(responseEntity.CustomerId);
+                                    contact["wrs_id"] = int.Parse(responseEntity.CustomerId);
+                                    if (!postImage.Contains("wrs_accountnumber"))
                                         contact["wrs_accountnumber"] = responseEntity.AccountNumber;
+                                    try
+                                    {
                                         service.Update(contact);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        if (ex.Message.Contains(""))
+                                        {
+
+                                        }
+                                        else
+                                        {
+                                            throw new InvalidPluginExecutionException("API to update failure");
+                                        }
+
                                     }
                                 }
                                 else
                                 {
-                                    throw new Exception("API to update failure. error message:" + responseEntity.Message);
+                                    service.Update(contact);
+                                    throw new InvalidPluginExecutionException("API to update failure. error message:" + responseEntity.Message);
                                 }
                             }
                             else
                             {
-                                throw new Exception("API to update failure");
+                                throw new InvalidPluginExecutionException("API to update failure");
                             }
                         }
                     }
@@ -200,10 +230,6 @@ namespace WRS.Plugin.Product
         public string PhoneNumber { get; set; }
 
         public int CustomerId { get; set; }
-
-        public int NCId { get; set; }
     }
-
-
 
 }

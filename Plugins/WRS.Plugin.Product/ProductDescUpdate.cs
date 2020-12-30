@@ -44,15 +44,6 @@ namespace WRS.Plugin.Product
                 {
                     if (targetEntity.Attributes.ContainsKey("description"))
                     {
-                        //wrs_sourcefrom
-                        string sourcefrom = targetEntity.Contains("wrs_sourcefrom") ? targetEntity.GetAttributeValue<string>("wrs_sourcefrom") : string.Empty;
-                        var postEntity = context.PostEntityImages["PostImage"];
-                        if (string.IsNullOrEmpty(sourcefrom))
-                        {
-                            sourcefrom = postEntity.Contains("wrs_sourcefrom") ? postEntity.GetAttributeValue<string>("wrs_sourcefrom") : string.Empty;
-                        }
-                        else if (sourcefrom.ToLower() == "nc")
-                            return;
                         //get authentication info
                         var authUserName = GetConfirurationByParaGroupAndKey(service, "WRS_API", "userName");
                         var password = GetConfirurationByParaGroupAndKey(service, "WRS_API", "password");
@@ -64,8 +55,7 @@ namespace WRS.Plugin.Product
                         password = Encoding.UTF8.GetString(getEncodeByte);
                         var customerId = GetConfirurationByParaGroupAndKey(service, "WRS_API", "customerId");
 
-                       
-
+                        var postEntity = context.PostEntityImages["PostImage"];
                         var ncId = postEntity.GetAttributeValue<int>("wrs_id");
                         var shortDesc = postEntity.GetAttributeValue<string>("wrs_shortdescription");
                         if (ncId == 0) { throw new Exception("NC id can not be null"); };

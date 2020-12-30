@@ -1,0 +1,40 @@
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.csprojResolveAssemblyReference.cache
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.exe.config
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\PaymentTrans\obj\Debug\PaymentTrans.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\PaymentTrans\obj\Debug\PaymentTrans.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\bin\Debug\PaymentTrans.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\obj\Debug\PaymentTrans.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\obj\Debug\PaymentTrans.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\PaymentTrans\obj\Debug\PaymentTrans.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.exe.config
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\PaymentTrans.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.csprojResolveAssemblyReference.cache
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\PaymentTrans\obj\Debug\PaymentTrans.pdb

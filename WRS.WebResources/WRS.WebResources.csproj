@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{720547E5-ECEA-4DFC-8E8D-6AAD9614DFF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WRS.WebResources</RootNamespace>
+    <AssemblyName>WRS.WebResources</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebResource\BlackOutCalender\" />
+    <Folder Include="WebResource\Case\" />
+    <Folder Include="WebResource\Contact\" />
+    <Folder Include="WebResource\Email\" />
+    <Folder Include="WebResource\PriceCalender\" />
+    <Folder Include="WebResource\Product\" />
+    <Folder Include="WebResource\ResourceManagement\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebResource\Common\wrs_balckout_calendar_details_main.js" />
+    <Content Include="WebResource\Common\wrs_blackoutcalendar.js" />
+    <Content Include="WebResource\Common\wrs_blackoutcalendar_product.js" />
+    <Content Include="WebResource\Common\wrs_caselocationoptionsetconfig.js" />
+    <Content Include="WebResource\Common\wrs_case_main_js.js" />
+    <Content Include="WebResource\Common\wrs_contact.js" />
+    <Content Include="WebResource\Common\wrs_Email_OnLoad.js" />
+    <Content Include="WebResource\Common\wrs_freebie_main.js" />
+    <Content Include="WebResource\Common\wrs_freebie_subgrid.js" />
+    <Content Include="WebResource\Common\wrs_JSMembershipPass.js" />
+    <Content Include="WebResource\Common\wrs_newslettersubscription.js" />
+    <Content Include="WebResource\Common\wrs_pricecalendar.js" />
+    <Content Include="WebResource\Common\wrs_PriceCalendarConfigurationPage.html" />
+    <Content Include="WebResource\Common\wrs_product.js" />
+    <Content Include="WebResource\Common\wrs_refundrequest.js" />
+    <Content Include="WebResource\Common\wrs_ResourceManagement.html" />
+    <Content Include="WebResource\Common\wrs_rm_main_js.js" />
+    <Content Include="WebResource\Common\wrs_Scriptsbootstrapmin.css" />
+    <Content Include="WebResource\Common\wrs_Scriptsimagesui_icons_444444_256x240png.png" />
+    <Content Include="WebResource\Common\wrs_ScriptsJQueryblockUI.js" />
+    <Content Include="WebResource\Common\wrs_ScriptsJQueryUI.css" />
+    <Content Include="WebResource\Common\wrs_ScriptsJQueryUImin.js" />
+    <Content Include="WebResource\Common\wrs_Scriptsjquery_191min.js" />
+    <Content Include="WebResource\Common\wrs_ScriptsJQuery_331min.js" />
+    <Content Include="WebResource\Common\wrs_Scriptsjquery_ui.css" />
+    <Content Include="WebResource\Common\wrs_Scriptsjquery_ui.js" />
+    <Content Include="WebResource\Common\wrs_ScriptsRESTJQuery.js" />
+    <Content Include="WebResource\Common\wrs_ScriptsSDKMetaData.js" />
+    <Content Include="WebResource\Common\wrs_sdk_dependantoptionset.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

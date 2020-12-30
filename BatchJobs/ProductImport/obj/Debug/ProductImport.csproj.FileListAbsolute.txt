@@ -1,0 +1,65 @@
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\ProductImport.exe.config
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\ProductImport.exe
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\ProductImport.pdb
+D:\Projects\WRS\DM\InitialImport\ProductImport\obj\Debug\ProductImport.exe
+D:\Projects\WRS\DM\InitialImport\ProductImport\obj\Debug\ProductImport.pdb
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\ProductImport\obj\Debug\ProductImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\ProductImport.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\ProductImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\ProductImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\obj\Debug\ProductImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\obj\Debug\ProductImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductImport\obj\Debug\ProductImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\ProductImport.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\ProductImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\ProductImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\obj\Debug\ProductImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductImport\obj\Debug\ProductImport.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.exe.config
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.csprojResolveAssemblyReference.cache
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\ProductImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductImport\obj\Debug\ProductImport.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\ProductImport.exe.config
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\ProductImport.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\ProductImport.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\obj\Debug\ProductImport.csprojResolveAssemblyReference.cache
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\obj\Debug\ProductImport.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\ProductImport\obj\Debug\ProductImport.pdb

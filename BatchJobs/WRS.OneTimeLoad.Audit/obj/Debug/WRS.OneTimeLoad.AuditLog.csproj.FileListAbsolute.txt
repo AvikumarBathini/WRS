@@ -1,0 +1,34 @@
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\obj\Debug\Interop.LCC11.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.AuditLog.csproj.ResolveComReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.Audit.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\One Time Jobs\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.Audit.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.exe.config
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\WRS.OneTimeLoad.Audit.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.AuditLog.csprojResolveAssemblyReference.cache
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.AuditLog.csproj.ResolveComReference.cache
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.Audit.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\obj\Debug\WRS.OneTimeLoad.Audit.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\WRS.OneTimeLoad.Audit\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll

@@ -2,6 +2,7 @@
 using Microsoft.Xrm.Sdk.Query;
 using System;
 using System.IO;
+using System.Net;
 using System.Runtime.Serialization.Json;
 using System.ServiceModel;
 using System.Text;
@@ -92,6 +93,10 @@ namespace WRS.Plugin.Product
                         {
                             userName = authUserName;
                         }
+
+                        ServicePointManager.Expect100Continue = true;
+                        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
                         //var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, authUserName.Split('\\')[1], password, authUserName.Split('\\')[0]);
                         var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, userName, password, domain);
                         if (!string.IsNullOrEmpty(response))

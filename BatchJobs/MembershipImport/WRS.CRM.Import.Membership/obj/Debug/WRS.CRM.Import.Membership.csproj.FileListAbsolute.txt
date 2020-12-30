@@ -1,0 +1,10 @@
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\WRS.CRM.Import.Membership.exe.config
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\WRS.CRM.Import.Membership.exe
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\WRS.CRM.Import.Membership.pdb
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\obj\Debug\WRS.CRM.Import.Membership.csprojResolveAssemblyReference.cache
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\obj\Debug\WRS.CRM.Import.Membership.exe
+C:\Users\ncs\Source\Repos\WRS\WRS.CRM.BatchJobs\WRS.CRM.Import.Membership\obj\Debug\WRS.CRM.Import.Membership.pdb

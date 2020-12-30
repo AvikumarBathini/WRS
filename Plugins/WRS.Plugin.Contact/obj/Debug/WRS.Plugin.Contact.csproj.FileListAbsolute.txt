@@ -28,3 +28,14 @@ D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\bin\De
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.dll
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.pdb
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.csprojResolveAssemblyReference.cache
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\bin\Debug\WRS.Plugin.Contact.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\bin\Debug\WRS.Plugin.Contact.pdb
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.csprojResolveAssemblyReference.cache
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.pdb
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Contact\bin\Debug\WRS.Plugin.Contact.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Contact\bin\Debug\WRS.Plugin.Contact.pdb
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Contact\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Contact\obj\Debug\WRS.Plugin.Contact.pdb

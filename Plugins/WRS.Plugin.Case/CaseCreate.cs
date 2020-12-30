@@ -13,7 +13,7 @@ namespace WRS.Plugin.Case
         {
             // Obtain the execution context from the service provider.
             IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
-            if (context.Depth > 1)
+            if (context.Depth > 3)
                 return;
             // The InputParameters collection contains all the data passed in the message request.
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
@@ -33,7 +33,6 @@ namespace WRS.Plugin.Case
 
                 if (targetEntity != null)
                 {
-
                     Entity _case = service.Retrieve(targetEntity.LogicalName, targetEntity.Id, new Microsoft.Xrm.Sdk.Query.ColumnSet("wrs_caseoriginhiddensla", "wrs_enquiryhiddensla", "wrs_complainthiddensla", "wrs_complimenthiddensla", "wrs_suggestionhiddensla"));
                     int wrs_caseoriginhiddensla = _case.Contains("wrs_caseoriginhiddensla") ? _case.GetAttributeValue<OptionSetValue>("wrs_caseoriginhiddensla").Value : -1;
                     if (context.PostEntityImages.Contains("PostImage"))
@@ -50,11 +49,22 @@ namespace WRS.Plugin.Case
                                     _newCase["wrs_caseoriginhiddensla"] = new OptionSetValue(((OptionSetValue)postImage["caseorigincode"]).Value);
                                 }
                             }
+                            if (context.MessageName.ToLower() == "create")
+                                _newCase["wrs_slastartdatehidden"] = DateTime.Now;
+
                             if (_newCase.Attributes.Count > 0)
                                 service.Update(_newCase);
                         }
                     }
-
+                    else
+                    {
+                        Entity _newCase = new Entity(targetEntity.LogicalName, targetEntity.Id);
+                        if (context.MessageName.ToLower() == "create")
+                        {
+                            _newCase["wrs_slastartdatehidden"] = DateTime.Now;
+                            service.Update(_newCase);
+                        }
+                    }
                 }
             }
         }

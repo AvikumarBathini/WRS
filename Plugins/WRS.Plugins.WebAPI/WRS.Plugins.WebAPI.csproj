@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xrm.Sdk">
-      <HintPath>..\WRSDataMigrationInt.Infrastructure\ReferDll\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\Assemblies\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,16 +55,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\WRSDataMigrationInt.Infrastructure\Constants.cs">
+    <Compile Include="..\wrsdatamigrationint.infrastructure\Constants.cs">
       <Link>ReferFiles\Constants.cs</Link>
     </Compile>
-    <Compile Include="..\..\WRSDataMigrationInt.Infrastructure\ExceptionHandling\ExceptionHandle.cs">
+    <Compile Include="..\wrsdatamigrationint.infrastructure\exceptionhandling\ExceptionHandle.cs">
       <Link>ReferFiles\ExceptionHandle.cs</Link>
     </Compile>
-    <Compile Include="..\..\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs">
+    <Compile Include="..\WRSDataMigrationInt.Infrastructure\HttpRequestUrl.cs">
       <Link>ReferFiles\HttpRequestUrl.cs</Link>
     </Compile>
-    <Compile Include="..\..\WRSDataMigrationInt.Infrastructure\ResponseModel.cs">
+    <Compile Include="..\wrsdatamigrationint.infrastructure\ResponseModel.cs">
       <Link>ReferFiles\ResponseModel.cs</Link>
     </Compile>
     <Compile Include="GetCrmDataTool.cs" />

@@ -1,0 +1,54 @@
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe.config
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.pdb
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.exe
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.pdb
+D:\Projects\WRS\DM\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\MasterDataImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\MasterDataImport\obj\Debug\MasterDataImport.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.exe.config
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\obj\Debug\MasterDataImport.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\MasterDataImport\obj\Debug\MasterDataImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\MasterDataImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\obj\Debug\MasterDataImport.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\obj\Debug\MasterDataImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\MasterDataImport\obj\Debug\MasterDataImport.pdb

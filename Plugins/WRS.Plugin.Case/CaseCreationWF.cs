@@ -81,6 +81,7 @@ namespace WRS.Plugin.Case
                         _case.Attributes.Add("wrs_casetypes", _caseType);
                         _case.Attributes.Add("overriddencreatedon", _createdOn);
                         _case.Attributes.Add("createdon", _createdOn);
+                        _case.Attributes.Add("wrs_slastartdatehidden", _createdOn);
                         _case.Attributes.Add("customerid", _from);
                         Guid _caseId = service.Create(_case);
 

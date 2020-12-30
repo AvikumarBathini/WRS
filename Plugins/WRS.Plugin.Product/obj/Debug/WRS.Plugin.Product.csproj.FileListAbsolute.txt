@@ -27,7 +27,9 @@ D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\De
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\WRS.Plugin.Product.pdb
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.csprojResolveAssemblyReference.cache
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugin.Product\obj\Debug\WRS.Plugin.Product.pdb

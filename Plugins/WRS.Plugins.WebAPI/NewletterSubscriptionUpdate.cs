@@ -22,7 +22,6 @@ namespace WRS.Plugin.Product
             // Obtain the execution context from the service provider.
             IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
 
-            if (context.Depth > 1) return;
             // The InputParameters collection contains all the data passed in the message request.
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
             {
@@ -31,33 +30,31 @@ namespace WRS.Plugin.Product
 
                 // Verify that the target entity represents an entity type you are expecting. 
                 // For example, an account. If not, the plug-in was not registered correctly.
-                if (targetEntity.LogicalName != Constants.WRSEntityName.Entity_Contact || (context.MessageName != Constants.MessageTypes.MSG_UPDATE))
+                if (targetEntity.LogicalName != Constants.WRSEntityName.Entity_NewsletterSubscription || (context.MessageName != Constants.MessageTypes.MSG_UPDATE))
                     return;
-                //if (targetEntity.Contains("wrs_apiresponse")) return;
+                if (targetEntity.Contains("wrs_apiresponse")) return;
                 // Obtain the organization service reference which you will need for
                 // web service calls.
                 IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
                 IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
                 try
                 {
-                    int subscriptionSourecFrom = -1;
+                    var sourecFrom = "";
                     var postImage = new Entity();
-                    if (targetEntity.Contains("wrs_subscriptionsourcefrom"))
-                    {
-                        subscriptionSourecFrom = targetEntity.GetAttributeValue<OptionSetValue>("wrs_subscriptionsourcefrom").Value;
-                    }
+                    //if (targetEntity.Contains("wrs_sourcefrom"))
+                    //{
+                    //    sourecFrom = targetEntity.GetAttributeValue<string>("wrs_sourcefrom");
+                    //}
                     if (context.PostEntityImages.Contains("PostImage"))
                     {
                         postImage = context.PostEntityImages["PostImage"];
                         if (postImage != null)
                         {
-                            subscriptionSourecFrom = postImage.GetAttributeValue<OptionSetValue>("wrs_subscriptionsourcefrom").Value;
+                            sourecFrom = postImage.GetAttributeValue<string>("wrs_sourcefrom");
                         }
                     }
-                    if (subscriptionSourecFrom == (int)SubscriptionFrom.MailChimp) return;
-
-
-                    if (targetEntity.Contains("emailaddress1") || targetEntity.Contains("wrs_subscriptionstatus"))
+                    if (string.IsNullOrEmpty(sourecFrom) || sourecFrom != "crm") return;
+                    if (targetEntity.Contains("wrs_email") || targetEntity.Contains("wrs_subscriptionstatus"))
                     {
                         //get authentication info
                         var authUserName = GetCrmDataTool.GetConfirurationByParaGroupAndKey(service, "WRS_API", "userName");
@@ -70,7 +67,7 @@ namespace WRS.Plugin.Product
                         userSecret = Encoding.UTF8.GetString(getEncodeByte);
                         var customerId = GetCrmDataTool.GetConfirurationByParaGroupAndKey(service, "WRS_API", "customerId");
 
-                        var email = postImage.GetAttributeValue<string>("emailaddress1");
+                        var email = postImage.GetAttributeValue<string>("wrs_email");
                         var subscribeStatus = postImage.GetAttributeValue<bool>("wrs_subscriptionstatus");
                         var requestEntity = new NewsletterUpdateFromPluginModel();
                         requestEntity.ApiSecretKey = Constants.WEBAPIURL.ApiSecretKey;
@@ -151,12 +148,5 @@ namespace WRS.Plugin.Product
         public bool Subscribe { get; set; }
 
         public int CustomerId { get; set; }
-    }
-
-    public enum SubscriptionFrom
-    {
-        MailChimp = 167320000,
-        CRM = 167320001,
-        NC = 167320002
     }
 }

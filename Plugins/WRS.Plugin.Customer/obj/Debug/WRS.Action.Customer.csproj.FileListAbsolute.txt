@@ -1,0 +1,17 @@
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\WRS.Action.Customer.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\WRS.Action.Customer.pdb
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\WRSDataMigrationInt.Infrastructure.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Newtonsoft.Json.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\Microsoft.Practices.Unity.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\bin\Debug\WRSDataMigrationInt.Infrastructure.pdb
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\obj\Debug\WRS.Action.Customer.csprojResolveAssemblyReference.cache
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\obj\Debug\WRS.Action.Customer.dll
+D:\VS 2015 TFS\WRSTFS\WRS.Plugin.Customer\obj\Debug\WRS.Action.Customer.pdb

@@ -1,0 +1,1095 @@
+<html><head>
+    <style type="text/css">
+        P {
+            margin: 0;
+        }
+    </style>
+    <meta>
+    <style type="text/css">
+        P {
+            margin: 0;
+        }
+    </style>
+    <meta>
+<meta charset="utf-8"></head>
+<body style="-ms-word-wrap: break-word;" onfocusout="parent.setEmailRange();">
+    ﻿
+    <!--
+    // =====================================================================
+    //  This file is part of the Microsoft Dynamics CRM SDK code samples.
+    //
+    //  Copyright (C) Microsoft Corporation.  All rights reserved.
+    //
+    //  This source code is intended only as a supplement to Microsoft
+    //  Development Tools and/or on-line documentation.  See these other
+    //  materials for detailed information regarding Microsoft code samples.
+    //
+    //  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+    //  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+    //  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+    //  PARTICULAR PURPOSE.
+    // =====================================================================
+    -->
+
+
+    <title>Resource Management Search</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- /WebResources/ClientGlobalContext.js.aspx is accessed using a relative path
+       because the name of the Web Resource created from this file is "sample_/RESTJQueryContactEditor.htm".
+       The use of the backslash within the name creates a virtual folder that must be considered
+       in relative links between Web Resources.
+       -->
+    <link href="Scripts/jquery_ui.css" rel="stylesheet">
+    <link href="Scripts/bootstrap.min.css" rel="stylesheet">
+    <script src="../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script src="Scripts/jquery_1.9.1.min.js"></script>
+    <script src="Scripts/RESTJQuery.js" type="text/javascript"></script>
+    <script src="Scripts/SDK.MetaData.js"></script>
+    <script src="Scripts/jquery_ui.js"></script>
+    <script language="javascript" type="text/javascript">
+
+        $(function () {
+             $("#fromdatepicker").datepicker({ dateFormat: 'dd-mm-yy', minDate: 0, maxDate: 6 }).val();
+            $("#todatepicker").datepicker({ dateFormat: 'dd-mm-yy', minDate: 0, maxDate: 6 }).val();
+        });
+        // <![CDATA[
+
+        //Variable to hold reference to a table row between ajax call and callback
+        var TMP_ROW = null;
+        var row = null;
+
+        //Clicks the search button when the document loads so that the first set of
+        // up to 50 records is retrieved.
+        $(document).ready(LoadSearchOptions);
+
+        //*************************** EVENT HANDLERS ******************************
+
+        $(document).ready(function () {
+            $("#dptimeslot").change(function () {
+                var selValue = this.value;
+
+                $("tr.RecordRow").each(function () {
+                    var row = $(this);
+                    var timeSlot = $(this).find("#time").val();
+
+                    if (timeSlot) {
+                        if (timeSlot == selValue || selValue == "99")
+                            row.show();
+                        else
+                            row.hide();
+                    }
+                });
+            });
+        });
+
+        //Search Button Event Handler
+        function SearchButton_onclick()
+        {
+            EmptyTable();
+
+            //var segmentValue = $("#dpsegment").val();
+            var resourceValue = $("#dpresource").val();
+            var eventValue = $("#dpeventtype").val();
+            var fromDate = $("#fromdatepicker").val();
+            var toDate = $("#todatepicker").val();
+
+            //Search where FullName contains search text
+            if (fromDate != "" && toDate != "")
+            {
+
+                var fromDateYear = fromDate.slice(6);
+                var fromDateMonth = fromDate.slice(3, 5);
+                var fromDateDay = fromDate.slice(0, 2);
+
+                var toDateYear = toDate.slice(6);
+                var toDateMonth = toDate.slice(3, 5);
+                var toDateDay = toDate.slice(0, 2);
+
+                // end - start returns difference in milliseconds
+                var diff = new Date(new Date(toDateYear, (parseInt(toDateMonth, 10) - 1), toDateDay, null, null, null, null) - new Date(fromDateYear, (parseInt(fromDateMonth, 10) - 1), fromDateDay, null, null, null, null));
+
+                // get days
+                var days = diff / 1000 / 60 / 60 / 24;
+
+                if (days < 7) {
+                    var from = new Date(fromDateYear, (parseInt(fromDateMonth, 10) - 1), fromDateDay, null, null, null, null).toISOString();
+                    //var to = new Date(fromDateYear, (parseInt(fromDateMonth) - 1), (parseInt(fromDateDay) + 1), null, null, null, null).toISOString();
+                    //var to = new Date(toDateYear, (parseInt(toDateMonth, 10) - 1), toDateDay, null, null, null, null).toISOString();
+                    var to = new Date(toDateYear, (parseInt(toDateMonth, 10) - 1), toDateDay, null, null, null, null);
+                    to.setDate(to.getDate() + 1);
+                    to = to.toISOString();
+
+                    //var filter = "&$filter=wrs_StartDateTime ge datetime'2017-08-31T16:00:00.000Z' and  wrs_StartDateTime le datetime'2017-09-20T16:00:00.000Z' and wrs_segment/Value eq " + segmentValue + " and wrs_RMResource/Value eq " + resourceValue + " and wrs_EventType/Value eq " + eventValue + "&$top=10&$orderby=wrs_StartDateTime asc";
+                    //var filter = "&$filter=wrs_StartDateTime ge datetime'" + from + "' and  wrs_StartDateTime le datetime'" + to + "' and wrs_segment/Value eq " + segmentValue + " and wrs_RMResource/Value eq " + resourceValue + " and wrs_EventType/Value eq " + eventValue + "&$orderby=wrs_StartDateTime asc";
+                    var filter = "&$filter=wrs_startdatetime ge " + from + " and  wrs_startdatetime le " + to + " and wrs_segment eq 1 and wrs_rmresource eq " + resourceValue + " and wrs_eventtype eq " + eventValue + "&$orderby=wrs_startdatetime asc";
+                    //var url = Xrm.Page.context.getClientUrl() + "/XRMServices/2011/OrganizationData.svc/wrs_resourcemanagementSet?$select=wrs_OffSaleDateTime,wrs_Quantity,wrs_ReservedQuantity,wrs_resourcemanagementId,wrs_RMResource,wrs_segment,wrs_StartDateTime,wrs_UsedQuantity" + filter;
+                    var url = Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_resourcemanagements?$select=wrs_eventtype,wrs_offsaledatetime,wrs_quantity,wrs_reservedquantity,wrs_resourcemanagementid,wrs_rmresource,wrs_segment,wrs_startdatetime,wrs_usedquantity,wrs_status" + filter;
+
+                    //retrieveMultiple("wrs_resourcemanagementSet?$select=wrs_ProductId,wrs_Quantity,wrs_ReservedQuantity,wrs_StartDateTime,wrs_UsedQuantity", "wrs_StartDateTime ge datetime'2017-08-31T16:00:00.000Z' and wrs_StartDateTime le datetime'2017-09-20T16:00:00.000Z'&$top=10&$orderby=wrs_StartDateTime asc", SearchCompleted, null);
+
+                    $.ajax({
+                        type: "GET",
+                        contentType: "application/json; charset=utf-8",
+                        datatype: "json",
+                        url: url,
+                        beforeSend: function (XMLHttpRequest) {
+                            XMLHttpRequest.setRequestHeader("OData-MaxVersion", "4.0");
+                            XMLHttpRequest.setRequestHeader("OData-Version", "4.0");
+                            XMLHttpRequest.setRequestHeader("Accept", "application/json");
+                            XMLHttpRequest.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+                        },
+                        async: false,
+                        success: SearchCompleted,
+                        error: function (xhr, textStatus, errorThrown) {
+                            Xrm.Utility.alertDialog(textStatus + " " + errorThrown);
+                        }
+                    });
+                }
+                else {
+                    alert("Date range should be less than or equal 7 days")
+                }
+            }
+                else
+            {
+
+                alert("Please select valid date(s)");
+            }
+        }
+        //New Button Event Handler
+        function NewButton_onclick()
+        {
+
+            //Create a new Contact object
+            var contact = CreateNewContact();
+
+            //Add a new row to the table using this Contact.
+            CreateNewRow(contact, true);
+        }
+
+        //*************************** CALLBACK FUNCTIONS ******************************
+
+        //Callback - Search Success
+        function SearchCompleted(data, textStatus, XmlHttpRequest)
+        {
+
+            //Clear out all Contacts in the grid.
+            EmptyTable();
+
+            if (data && data.value && data.value.length > 0) {
+                var results = data;
+
+                HideEmptyRow();
+
+                var timeFilter = document.getElementById("dptimeslot");
+                $("#dvtimeslot").show();
+                $("#dptimeslot").empty();
+
+                var option = document.createElement("option");
+                option.text = "All";
+                option.value = "99";
+                timeFilter.add(option);
+
+                var headerrow1 = $("<tr class='RecordHeader' />");
+                headerrow1.append($("<th rowspan='2' style='width:80px'>Start Date</th>"));
+                headerrow1.append($("<th rowspan='2' style='width:80px'>Time Slot</th>"));
+                headerrow1.append($("<th colspan='6'>FIT</th>"));
+                headerrow1.append($("<th colspan='6'>MEMBER</th>"));
+                headerrow1.append($("<th rowspan='2' style='width:60px'>Action</th>"));
+                headerrow1.append($("<th style = 'display: none'>FIT-RM ID</th>"));
+                headerrow1.append($("<th style = 'display: none'>Member-RM ID</th>"));
+
+                $("#ContactTableBody").append(headerrow1);
+
+                var headerrow = $("<tr class='RecordHeader' />");
+                //row.append($("<th></th>"));
+                //headerrow.append($("<th style='width:80px'>Start Date</th>"));
+                //headerrow.append($("<th style='width:80px'>Time Slot</th>"));
+                headerrow.append($("<th style='width:80px'>Reserved Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Used Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Balance Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Adjust Qty(-/+)</th>"));
+                headerrow.append($("<th style='width:80px'>Total Qty</th>"));
+                headerrow.append($("<th style='width:70px'>Sold Out</th>"));
+                //row.append($("<th scope='col'>Action</th>"));
+                headerrow.append($("<th style='width:80px'>Reserved Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Used Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Balance Qty</th>"));
+                headerrow.append($("<th style='width:80px'>Adjust Qty(-/+)</th>"));
+                headerrow.append($("<th style='width:80px'>Total Qty</th>"));
+                headerrow.append($("<th style='width:70px'>Sold Out</th>"));
+                //headerrow.append($("<th style='width:60px'>Action</th>"));
+                headerrow.append($("<th style = 'display: none'>FIT-RM ID</th>"));
+                headerrow.append($("<th style = 'display: none'>Member-RM ID</th>"));
+
+                $("#ContactTableBody").append(headerrow);
+
+                for (var i = 0; i < results.value.length; i++) {
+
+                    CreateNewRow(results.value[i], null, timeFilter);
+                }
+
+                $("tr.RecordRow").each(function () {
+                    var row = $(this);
+
+                    if ($(this).find("#fit_RMId")) {
+                        var fitTot = $(this).find("#fit_totqty").val();
+                        var fitRes = $(this).find("#fit_resqty").val();
+                        var fitUsed = $(this).find("#fit_usedqty").val();
+
+                        if (fitTot && fitRes && fitUsed) {
+                            var fitBal = parseInt(fitTot, 10) - parseInt(fitRes, 10) - parseInt(fitUsed, 10);
+                            $(this).find("#fit_balqty").attr("value", fitBal);
+                        }
+                        else
+                            $(this).find("#fit_balqty").attr("value", 0);
+                    }
+
+                    if ($(this).find("#mem_RMId")) {
+                        var memTot = $(this).find("#mem_totqty").val();
+                        var memRes = $(this).find("#mem_resqty").val();
+                        var memUsed = $(this).find("#mem_usedqty").val();
+
+                        if (memTot && memRes && memUsed) {
+                            var memBal = parseInt(memTot, 10) - parseInt(memRes, 10) - parseInt(memUsed, 10);
+                            $(this).find("#mem_balqty").attr("value", memBal);
+                        }
+                        else
+                            $(this).find("#mem_balqty").attr("value", 0);
+                    }
+                });
+
+                alert(results.value.length + " RM record(s) found.");
+            }
+            else {
+                $("#dvtimeslot").hide();
+                ShowEmptyRow();
+                alert("No RM record(s) found.");
+            }
+
+        }
+
+
+
+        //Callback - Delete Success
+        function DeleteContactCompleted(data, textStatus, XmlHttpRequest)
+        {
+            alert("Contact deleted.");
+        }
+        //Callback - Delete Failure
+        function DeleteContactErrored(data, textStatus, errorThrown)
+        {
+            alert("Failed to delete Contact.");
+        }
+        //Callback - Update Success
+        function FITUpdateCompleted(data, textStatus, XmlHttpRequest)
+        {
+
+            TMP_ROW = null;
+
+            //Enable all buttons
+         //$(":button").attr('disabled', '');
+            $(":button").removeAttr("disabled");
+
+            //alert("FIT RM save successfully");
+        }
+
+        function MemberUpdateCompleted(data, textStatus, XmlHttpRequest) {
+
+            TMP_ROW = null;
+
+            //Enable all buttons
+            //$(":button").attr('disabled', '');
+            $(":button").removeAttr("disabled");
+
+            //alert("Member RM save successfully");
+        }
+
+        function RMUpdateFailed(XmlHttpRequest, textStatus, errorThrown)
+        {
+            TMP_ROW = null;
+
+            $(":button").removeAttr("disabled");
+
+            alert(XmlHttpRequest.responseText);
+        }
+
+        //Callback - Create Success
+        function ContactCreateCompleted(data, textStatus, XmlHttpRequest)
+        {
+
+            //Update the Contact row with the ContactId so future user actions
+            //on this row operate correctly. (Update vs. Create)
+            if (TMP_ROW && data && data.ContactId)
+            {
+
+                //Set the ContactId
+                $(TMP_ROW).find("#ContactId").attr("value", data.ContactId);
+
+                //Set the Link column
+                $(TMP_ROW).find("#RecordLink").html("<a target=\"_blank\" href=\"" +
+                                    clientUrl + "/main.aspx?etn=contact&id=%7b" + data.ContactId +
+                                    "%7d&pagetype=entityrecord\">View</a>");
+            }
+
+            //Enable all buttons
+            //$(":button").attr('disabled', '');
+            $(":button").removeAttr("disabled");
+
+            TMP_ROW = null;
+
+            alert("Create complete.");
+        }
+        //Callback - Create Failure
+        function ContactCreateFailed(data, textStatus, errorThrown)
+        {
+
+            //Enable all buttons
+            $(":button").removeAttr("disabled");
+
+            TMP_ROW = null;
+
+            alert("Failed to create Contact...");
+        }
+
+        //*************************** HELPER FUNCTIONS ******************************
+
+        //Accepts a contact object, generates a new row in the table,
+        //and wires up event handlers for buttons in the row
+        function CreateNewRow(resourceMgt, fromNewButton, timeSlotFilter)
+        {
+
+            if (resourceMgt)
+            {
+                //Hide the "Empty Message" row
+                $("TR.EmptyRow").hide();
+
+                //Generate a new row
+                ;
+
+                row = $("<tr class='RecordRow' />");
+                //row.append($("<td style='display: none'><span id='fit_RecordLink'>N/A</span></td>"));
+                row.append($("<td><input type='text' id='date' style='font-weight: bold;' readonly /></td>"));
+                row.append($("<td><input type='text' id='time' style='font-weight: bold;' readonly /></td>"));
+
+                row.append($("<td><input type='text' id='fit_resqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='fit_usedqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='fit_balqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='fit_adjustqty' style='background-color: lavender; border-style:inset;' /></td>"));
+                row.append($("<td><input type='text' id='fit_totqty' value=0 readonly /></td>"));
+                row.append($("<td style='text-align:center;' ><input type='checkbox' id='fit_dpstatus' /></td>"));
+                //row.append($("<td><select id='fit_dpstatus'><option Value='0' >Inactive</option><option Value='1' >Active</option></select></td>"));
+
+                //row.append($("<td style='display: none'><span id='mem_RecordLink'>N/A</span></td>"));
+                row.append($("<td><input type='text' id='mem_resqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='mem_usedqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='mem_balqty' value=0 readonly /></td>"));
+                row.append($("<td><input type='text' id='mem_adjustqty' readonly /></td>"));
+                row.append($("<td><input type='text' id='mem_totqty' value=0 readonly /></td>"));
+                row.append($("<td style='text-align:center;' ><input type='checkbox' id='mem_dpstatus' /></td>"));
+                //row.append($("<td><select id='mem_dpstatus'><option Value='0' >Inactive</option><option Value='1' >Active</option></select></td>"));
+
+                row.append($("<td><button type='button' class='btn btn-link' id='SaveButton' title='Click to save changes to the record.' style='width: 50px; margin-left: 5px;' >Save</button></td>"));
+
+                //row.append($("<td style='border-style:none'><input type='button' id='SaveButton' title='Click to save changes to the record.' style='width: 50px; margin-left: 5px;' value='Save' /></td>"));
+                //row.append($("<td><input type='button' id='DeleteButton' title='Click to remove the record from the system.' style='width: 50px; margin-left: 5px;' value='Delete' /></td>"));
+
+                row.append($("<td  style='display: none'><input type='text' id='fit_RMId'  /></td>"));
+                row.append($("<td  style='display: none'><input type='text' id='mem_RMId'  /></td>"));
+
+                if (fromNewButton && $("#ContactTableBody").children().first())
+                {
+                    //Add it to the top
+                    $("#ContactTableBody").children().first().before(row);
+
+                }
+                else
+                {
+                    //Add it to the bottom
+                    $("#ContactTableBody").append(row);
+                }
+
+                if (resourceMgt["wrs_resourcemanagementid"]) {
+                    row.find("#fit_RMId").attr("value", resourceMgt["wrs_resourcemanagementid"]);
+                    //Set the Link column
+                    //row.find("#fit_RecordLink").html("<a target=\"_blank\" href=\"" +
+                    //                   Xrm.Page.context.getClientUrl() + "/main.aspx?etn=wrs_resourcemanagement&id=%7b" + resourceMgt["wrs_resourcemanagementid"] +
+                    //                   "%7d&pagetype=entityrecord\">View</a>");
+                }
+                if (resourceMgt["wrs_quantity"])
+                    row.find("#fit_totqty").attr("value", resourceMgt["wrs_quantity"]);
+                if (resourceMgt["wrs_startdatetime"]) {
+                    var dt = resourceMgt["wrs_startdatetime"];
+                    //row.find("#date").attr("value", dt.slice(0,10));
+                    var dateValue = new Date(dt);
+
+                    var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+                    var year = dateValue.getFullYear();
+                    //var month = ("00" + (dateValue.getMonth() +1)).slice(-2);
+                    var month = monthNames[dateValue.getMonth()];
+                    var day = ("00" + dateValue.getDate()).slice(-2);
+                    var hours = ("00" +dateValue.getHours()).slice(-2);
+                    var minutes = ("00" + dateValue.getMinutes()).slice(-2);
+                    row.find("#date").attr("value", day + "-" + month + "-" + year);
+                    row.find("#time").attr("value", hours + ":" + minutes);
+
+                    var timeslot = hours + ":" + minutes;
+                    var difOption = true;
+                    var optLen = $("#dptimeslot option").length;
+
+                    for (var i = 0 ; i < $("#dptimeslot option").length; i++)
+                    {
+                        var optiontext = ($("#dptimeslot option")[i]).text;
+
+                        if (optiontext == timeslot)
+                            difOption = false;
+                    }
+
+                    if (difOption || optLen == 0) {
+                        var option = document.createElement("option");
+                        option.text = hours + ":" + minutes;
+                        option.value = hours + ":" + minutes;
+                        timeSlotFilter.add(option);
+                    }
+
+                }
+
+                if (resourceMgt["wrs_reservedquantity"])
+                    row.find("#fit_resqty").attr("value", resourceMgt["wrs_reservedquantity"]);
+                if (resourceMgt["wrs_usedquantity"])
+                    row.find("#fit_usedqty").attr("value", resourceMgt["wrs_usedquantity"]);
+                if (resourceMgt["wrs_status"])
+                    row.find("#fit_dpstatus").removeAttr("checked");
+                    //row.find("#fit_dpstatus").val(1);
+                else
+                    row.find("#fit_dpstatus").attr("checked", true);
+                    //row.find("#fit_dpstatus").val(0);
+
+
+                //search other segment details and append to row
+                SearchOtherSegment(resourceMgt["wrs_startdatetime"]);
+
+
+                //Wire up the SaveButton event handler
+                row.find("#SaveButton").click(function ()
+                {
+                    var confirmAnswer = confirm("Are you sure you want to save this RM?");
+                    if (confirmAnswer) {
+
+                        var validate = true;
+
+                        //Figure out what row the SaveButton belongs to
+                        var rmRow = $(this).parent().parent();
+
+                        //Store the row in a temporary buffer so we know which to update in the callback method.
+                        TMP_ROW = rmRow;
+
+
+                        var adjustQty = rmRow.find("#fit_adjustqty").val();
+
+                        if (adjustQty == "") {
+                            $(":button").prop('disabled', true);
+
+                            //Create a new Contact object by extracting data from the row
+                            var rmObject = ExtractContactFromRow(rmRow, true);
+
+
+                            //The contactObject won't have a ContactId unless its stored in CRM already
+                            if (rmObject.wrs_resourcemanagementId && rmObject.wrs_resourcemanagementId != null) {
+
+                                //Update the CRM record
+                                updateRecord(rmObject.wrs_resourcemanagementId, rmObject, "wrs_resourcemanagementSet", FITUpdateCompleted, RMUpdateFailed);
+                            }
+                        }
+                        else if (adjustQty != "" && $.isNumeric(adjustQty)) {
+
+                            var balQty = rmRow.find("#fit_balqty").val();
+
+                            if ((parseInt(balQty, 10) + parseInt(adjustQty, 10)) >= 0) {
+                                //Disable all buttons so the user can't invoke other actions
+                                $(":button").prop('disabled', true);
+
+                                //Create a new Contact object by extracting data from the row
+                                var rmObject = ExtractContactFromRow(rmRow, true);
+
+
+                                //The contactObject won't have a ContactId unless its stored in CRM already
+                                if (rmObject.wrs_resourcemanagementId && rmObject.wrs_resourcemanagementId != null) {
+
+                                    //Update the CRM record
+                                    updateRecord(rmObject.wrs_resourcemanagementId, rmObject, "wrs_resourcemanagementSet", FITUpdateCompleted, RMUpdateFailed);
+                                    rmRow.find("#fit_totqty").val(rmObject.wrs_Quantity);
+                                    rmRow.find("#fit_adjustqty").val("");
+                                }
+                            }
+                            else {
+                                alert("FIT Adjust Qty is greater than balance qty");
+                                validate = false;
+                            }
+                        }
+                        else if (adjustQty != "" && !$.isNumeric(adjustQty)) {
+                            alert("FIT-Adjust Qty value is not a valid number");
+                            validate = false;
+                        }
+
+
+                        if (validate) {
+                            var mem_adjustQty = rmRow.find("#mem_adjustqty").val();
+
+                            if (mem_adjustQty == "") {
+
+
+                                //Create a new Contact object by extracting data from the row
+                                var rmObject = ExtractContactFromRow(rmRow, false);
+
+
+                                //The contactObject won't have a ContactId unless its stored in CRM already
+                                if (rmObject.wrs_resourcemanagementId && rmObject.wrs_resourcemanagementId != null) {
+                                    $(":button").prop('disabled', true);
+                                    //Update the CRM record
+                                    updateRecord(rmObject.wrs_resourcemanagementId, rmObject, "wrs_resourcemanagementSet", MemberUpdateCompleted, RMUpdateFailed);
+                                }
+                            }
+                            else if (mem_adjustQty != "" && $.isNumeric(mem_adjustQty)) {
+
+                                var balQty = rmRow.find("#mem_balqty").val();
+
+                                if ((parseInt(balQty, 10) + parseInt(mem_adjustQty, 10)) >= 0) {
+                                    //Disable all buttons so the user can't invoke other actions
+                                    $(":button").prop('disabled', true);
+
+                                    //Create a new Contact object by extracting data from the row
+                                    var rmObject = ExtractContactFromRow(rmRow, false);
+
+
+                                    //The contactObject won't have a ContactId unless its stored in CRM already
+                                    if (rmObject.wrs_resourcemanagementId && rmObject.wrs_resourcemanagementId != null) {
+
+                                        //Update the CRM record
+                                        updateRecord(rmObject.wrs_resourcemanagementId, rmObject, "wrs_resourcemanagementSet", MemberUpdateCompleted, RMUpdateFailed);
+                                        rmRow.find("#mem_totqty").val(rmObject.wrs_Quantity);
+                                        rmRow.find("#mem_adjustqty").val("");
+                                    }
+                                }
+                                else {
+                                    alert("Member Adjust Qty is greater than balance qty");
+                                    validate = false;
+                                }
+                            }
+                            else if (mem_adjustQty != "" && !$.isNumeric(mem_adjustQty)) {
+                                alert("Member-Adjust Qty value is not a valid number");
+                                validate = false;
+                            }
+                        }
+
+                        if (validate) {
+                            alert("RM record(s) save successfully");
+
+                            $("tr.RecordRow").each(function () {
+                                var row = $(this);
+
+                                if ($(this).find("#fit_RMId")) {
+                                    var fitTot = $(this).find("#fit_totqty").val();
+                                    var fitRes = $(this).find("#fit_resqty").val();
+                                    var fitUsed = $(this).find("#fit_usedqty").val();
+
+                                    if (fitTot && fitRes && fitUsed) {
+                                        var fitBal = parseInt(fitTot, 10) - parseInt(fitRes, 10) - parseInt(fitUsed, 10);
+                                        $(this).find("#fit_balqty").attr("value", fitBal);
+                                    }
+                                    else
+                                        $(this).find("#fit_balqty").attr("value", 0);
+                                }
+
+                                if ($(this).find("#mem_RMId")) {
+                                    var memTot = $(this).find("#mem_totqty").val();
+                                    var memRes = $(this).find("#mem_resqty").val();
+                                    var memUsed = $(this).find("#mem_usedqty").val();
+
+                                    if (memTot && memRes && memUsed) {
+                                        var memBal = parseInt(memTot, 10) - parseInt(memRes, 10) - parseInt(memUsed, 10);
+                                        $(this).find("#mem_balqty").attr("value", memBal);
+                                    }
+                                    else
+                                        $(this).find("#mem_balqty").attr("value", 0);
+                                }
+                            });
+                        }
+                    }
+                });
+
+                //Wire up the DeleteButton event handler
+                //row.find("#DeleteButton").click(function ()
+                //{
+
+                //    var confirmAnswer = confirm("Are you sure you want to delete this contact?");
+
+                //    if (confirmAnswer)
+                //    {
+                //        var contactRow = $(this).parent().parent();
+
+                //        //Store the row in a temporary buffer so we know which to update in the callback method.
+                //        TMP_ROW = contactRow;
+
+                //        //Create a new Contact object by extracting data from the row.
+                //        var contactObject = ExtractContactFromRow(contactRow);
+
+                //        //If the Contact has a ContactId, Delete it from CRM and delete the row
+                //        if (contactObject.ContactId && contactObject.ContactId != null)
+                //        {
+
+                //            //Delete the record from CRM
+                //            deleteRecord(contactObject.ContactId, "ContactSet", DeleteContactCompleted, null);
+
+                //            //Delete the Row
+                //            contactRow.remove();
+                //        }
+                //            //If no ContactId, only delete the row.
+                //        else
+                //        {
+
+                //            //Delete the Row
+                //            contactRow.remove();
+                //        }
+                //    }
+                //});
+            }
+        }
+
+        function SearchOtherSegment(startdatetime) {
+
+            var resourceValue = $("#dpresource").val();
+            var eventValue = $("#dpeventtype").val();
+            var fromDate = $("#fromdatepicker").val();
+
+            //var fromDateYear = fromDate.slice(6);
+            //var fromDateMonth = fromDate.slice(3, 5);
+            //var fromDateDay = fromDate.slice(0, 2);
+
+            //var from = new Date(fromDateYear, (parseInt(fromDateMonth, 10) - 1), fromDateDay, null, null, null, null).toISOString();
+            //var to = new Date(fromDateYear, (parseInt(fromDateMonth) - 1), (parseInt(fromDateDay) + 1), null, null, null, null).toISOString();
+
+            var filter = "&$filter=wrs_startdatetime eq " + startdatetime + " and wrs_segment eq 2 and statecode eq 0 and wrs_rmresource eq " + resourceValue + " and wrs_eventtype eq " + eventValue + "&$orderby=wrs_startdatetime asc";
+            var url = Xrm.Page.context.getClientUrl() + "/api/data/v8.2/wrs_resourcemanagements?$select=wrs_eventtype,wrs_offsaledatetime,wrs_quantity,wrs_reservedquantity,wrs_resourcemanagementid,wrs_rmresource,wrs_segment,wrs_startdatetime,wrs_usedquantity,wrs_status" + filter;
+
+            $.ajax({
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                datatype: "json",
+                url: url,
+                beforeSend: function (XMLHttpRequest) {
+                    XMLHttpRequest.setRequestHeader("OData-MaxVersion", "4.0");
+                    XMLHttpRequest.setRequestHeader("OData-Version", "4.0");
+                    XMLHttpRequest.setRequestHeader("Accept", "application/json");
+                    XMLHttpRequest.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+                },
+                async: false,
+                success: AppendOtherSegment,
+                error: function (xhr, textStatus, errorThrown) {
+                    Xrm.Utility.alertDialog(textStatus + " " + errorThrown);
+                }
+            });
+
+        }
+
+        function AppendOtherSegment(data, textStatus, XmlHttpRequest) {
+            //var row = $("<tr class='RecordRow' />");
+
+            //var objectArr = [];
+
+            if (data && data.value && data.value.length > 0) {
+                var results = data;
+
+                for (var i = 0; i < results.value.length; i++) {
+                    var resourceMgt = results.value[i];
+
+                    if (resourceMgt["wrs_resourcemanagementid"]) {
+                        row.find("#mem_RMId").attr("value", resourceMgt["wrs_resourcemanagementid"]);
+                        //Set the Link column
+                        //row.find("#mem_RecordLink").html("<a target=\"_blank\" href=\"" +
+                        //                   Xrm.Page.context.getClientUrl() + "/main.aspx?etn=wrs_resourcemanagement&id=%7b" + resourceMgt["wrs_resourcemanagementid"] +
+                        //                   "%7d&pagetype=entityrecord\">View</a>");
+                    }
+
+                    if (resourceMgt["wrs_quantity"])
+                        row.find("#mem_totqty").attr("value", resourceMgt["wrs_quantity"]);
+
+                    if (resourceMgt["wrs_reservedquantity"])
+                        row.find("#mem_resqty").attr("value", resourceMgt["wrs_reservedquantity"]);
+
+                    if (resourceMgt["wrs_usedquantity"])
+                        row.find("#mem_usedqty").attr("value", resourceMgt["wrs_usedquantity"]);
+
+                    if (resourceMgt["wrs_status"])
+                        row.find("#mem_dpstatus").removeAttr("checked");
+                        //row.find("#mem_dpstatus").val(1);
+                    else
+                        row.find("#mem_dpstatus").attr("checked", true);
+                        //row.find("#mem_dpstatus").val(0);
+
+
+                    row.find("#mem_adjustqty").removeAttr("readonly");
+                    row.find("#mem_adjustqty").attr("style", "background-color: lavender; border-style: inset;");
+
+                    //var rmObj = new Object();
+
+                    //rmObj.mem_wrs_resourcemanagementId = resourceMgt["wrs_resourcemanagementid"];
+
+                    //if (resourceMgt["wrs_startdatetime"])
+                    //    rmObj.mem_wrs_StartDate = parseInt(resourceMgt["wrs_startdatetime"], 10);
+
+                    //if (resourceMgt["wrs_quantity"])
+                    //    rmObj.mem_wrs_Quantity = parseInt(resourceMgt["wrs_quantity"], 10);
+
+                    //if (resourceMgt["wrs_reservedquantity"])
+                    //    rmObj.mem_wrs_ResQuantity = parseInt(resourceMgt["wrs_reservedquantity"], 10);
+
+                    //if (resourceMgt["wrs_usedquantity"])
+                    //    rmObj.mem_wrs_UsedQuantity = parseInt(resourceMgt["wrs_usedquantity"], 10);
+
+                    //if (resourceMgt["wrs_status"])
+                    //    rmObj.mem_wrs_Status = false;
+                    //else
+                    //    rmObj.mem_wrs_Status = true;
+
+                    //objectArr.push(rmObj);
+                }
+            }
+            else {
+                row.find("#mem_dpstatus").hide();
+            }
+        }
+
+        //Accepts a row and returns a Contact object
+        function ExtractContactFromRow(row,isFit)
+        {
+            var rm = new Object();
+
+            if (isFit) {
+                //This 'if' statement is necessary because without it, if the Contact
+                //is passed to the createRecord function, the function will try to parse
+                //an empty Guid and fail upon Create
+                if (row.find("#fit_RMId").val()) {
+
+                    rm.wrs_resourcemanagementId = row.find("#fit_RMId").val();
+                }
+
+                if (row.find("#fit_adjustqty").val() != "")
+                    rm.wrs_Quantity = parseInt(row.find("#fit_totqty").val(), 10) + parseInt(row.find("#fit_adjustqty").val(), 10);
+
+                //if (row.find("#fit_dpstatus").val() == 0)
+                if (row.find("#fit_dpstatus").is(":checked"))
+                    rm.wrs_Status = false;
+                else
+                    rm.wrs_Status = true;
+
+                rm.wrs_sourcefrom = "crm";
+            }
+            else {
+                if (row.find("#mem_RMId").val()) {
+                    rm.wrs_resourcemanagementId = row.find("#mem_RMId").val();
+
+                    if (row.find("#mem_adjustqty").val() != "")
+                        rm.wrs_Quantity = parseInt(row.find("#mem_totqty").val(), 10) + parseInt(row.find("#mem_adjustqty").val(), 10);
+
+                    //if (row.find("#mem_dpstatus").val() == 0)
+                    if (row.find("#mem_dpstatus").is(":checked"))
+                        rm.wrs_Status = false;
+                    else
+                        rm.wrs_Status = true;
+
+                    rm.wrs_sourcefrom = "crm";
+                }
+            }
+
+            return rm;
+        }
+        //Instantiates and returns an empty contact object
+        function CreateNewContact()
+        {
+
+            //Each of these contact fields are named as they appear in the Odata metadata.
+            var contact = new Object();
+
+            contact.FirstName = "Firstname";
+            contact.LastName = "Lastname";
+            contact.Telephone1 = null;
+            contact.EMailAddress1 = null;
+            contact.Address1_Line1 = null;
+            contact.Address1_City = null;
+            contact.Address1_StateOrProvince = null;
+            contact.Address1_PostalCode = null;
+            contact.ContactId = null;
+
+            return contact;
+        }
+        //Hides the row with the empty message in Contacts table
+        function HideEmptyRow()
+        {
+
+            if ($("TR.EmptyRow")[0])
+            {
+                $("TR.EmptyRow").hide();
+            }
+        }
+
+        //Shows the row with the empty message in Contacts table
+        function ShowEmptyRow()
+        {
+            if ($("TR.EmptyRow")[0])
+            {
+                $("TR.EmptyRow").show();
+            }
+            else
+            {
+                var emptyRow = $("<tr id='EmptyRow' class='EmptyRow'><td colspan='15' style='text-align:center;font-size: 12px;'><span>No RM records are available for this search criteria</span></td></tr>")
+                $("#ContactTableBody").append(emptyRow);
+
+            }
+
+        }
+
+        //Removes all the Contact rows from the table
+        function EmptyTable()
+        {
+
+            //Clear out the Contact table's rows that have attribute class=RecordRow
+            //These are the ones that contain Contact record data.
+            $("TR.RecordRow").remove();
+
+            $("TR.RecordHeader").remove();
+        }
+
+        function LoadSearchOptions() {
+            //GetOptionSetText("wrs_resourcemanagement", "wrs_segment", "dpsegment");
+            GetOptionSetText("wrs_resourcemanagement", "wrs_rmresourcefriendlyname", "dpresource");
+            GetOptionSetText("wrs_resourcemanagement", "wrs_rmeventfriendlyname", "dpeventtype");
+        }
+
+        function GetOptionSetText(EntityLogicalName, AttributeLogicalName,DropdownId) {
+            SDK.Metadata.RetrieveAttribute(EntityLogicalName, AttributeLogicalName, "00000000-0000-0000-0000-000000000000", true,
+               function (result) {
+                   var dropdown = document.getElementById(DropdownId);
+                   for (var i = 0; i < result.OptionSet.Options.length; i++) {
+                       var text = result.OptionSet.Options[i].Label.LocalizedLabels[0].Label;
+                       var value = result.OptionSet.Options[i].Value;
+
+                       var option = document.createElement("option");
+                       option.text = text;
+                       option.value = value;
+                       dropdown.add(option);
+                   }
+               },
+                function (error) { }
+            );
+        }
+
+        // ]]>
+
+    </script>
+    <style type="text/css">
+        #ContactTable {
+            border: thin;
+            border-spacing: 5px;
+            border-width: 2px;
+            font-family: Segoe UI;
+            font-size: 11px;
+            margin-top: 10px;
+            border-collapse: collapse;
+            table-layout: auto;
+            margin: 10px;
+        }
+
+            #ContactTable td {
+                border-width: 1px;
+                border-style: outset;
+                margin: 1px;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+
+            #ContactTable th {
+                border-width: 1px;
+                padding: 1px;
+                border-style: outset;
+                margin: 1px;
+                font-family: Segoe UI;
+                text-align: center;
+                background-color: #f8f8f8;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+
+            #ContactTable INPUT[type="text"] {
+                border-width: 1px;
+                padding: 1px;
+                border-style: none;
+                margin: 3px;
+                width: 70px;
+                border-color: aliceblue;
+            }
+
+            #ContactTable INPUT[type="button"] {
+                border-width: 1px;
+                border-style: outset;
+                margin: 3px;
+            }
+
+        body {
+            font-family: Segoe UI;
+        }
+    </style>
+
+
+    <!--<h1>Resource Management Search</h1>
+    <p>
+        This page requires JavaScript and will update dynamically.
+    </p>
+    <h3 style="font-family: Arial;">
+        Search for
+    </h3>-->
+    <div>
+        <table align="center" style="background-color: rgb(248, 248, 248);">
+            <thead>
+                <tr>
+                    <!--<th align="left">
+                        <label for="dpsegment" style="font-family: Segoe UI;">
+                            Segment:
+                        </label>
+                    </th>
+                    <th width="20"></th>-->
+                    <th align="left">
+                        <label style="font-family: Segoe UI;" for="dpresource">
+                            Resource:
+                        </label>
+                    </th>
+                    <th width="20"></th>
+                    <th align="left">
+                        <label style="font-family: Segoe UI;" for="dpeventtype">
+                            Event Type:
+                        </label>
+                    </th>
+                    <th width="20"></th>
+                    <th align="left">
+                        <label style="font-family: Segoe UI;" for="fromdatepicker">
+                            Start Date:
+                        </label>
+                    </th>
+                    <th width="20"></th>
+                    <th align="left">
+                        <label style="font-family: Segoe UI;" for="todatepicker">
+                            To Date:
+                        </label>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--<td align="left"><select id="dpsegment"></select></td>
+                    <td width="20"></td>-->
+                    <td align="left"><select id="dpresource"></select></td>
+                    <td width="20"></td>
+                    <td align="left"><select id="dpeventtype"></select></td>
+                    <td width="20"></td>
+                    <td align="left"><input id="fromdatepicker" type="text"></td>
+                    <td width="20"></td>
+                    <td align="left"><input id="todatepicker" type="text"></td>
+                    <td width="20"></td>
+                    <td><input title="Click to search RM" id="SearchButton" style="width: 80px;" onclick="return SearchButton_onclick()" type="button" value="Search"></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--<label for="dpsegment" style="font-family: Arial;">
+            Segment:
+        </label>
+        <select id="dpsegment">
+        </select>
+        <label for="dpresource" style="font-family: Arial;">
+            Resource:
+        </label>
+        <select id="dpresource"></select>
+        <label for="dpeventtype" style="font-family: Arial;">
+            Event Type:
+        </label>
+        <select id="dpeventtype"></select>
+        <label for="fromdatepicker" style="font-family: Arial;">
+            From Date:
+        </label>
+        <input type="text" id="fromdatepicker">
+        <label for="todatepicker" style="font-family: Arial;">
+            To Date:
+        </label>
+        <input type="text" id="todatepicker">-->
+        <!--<input type="text" style="width: 200px;" id="txtSearch" />-->
+        <!--<input type="button" id="SearchButton" value="Search" title="Click to search RM" style="width: 80px;" onclick="return SearchButton_onclick()" />-->
+        <!--<input type="button" id="NewButton" value="New Contact" title="Click to create new contact record" style="width: 90px;" onclick="return NewButton_onclick()" />-->
+    </div>
+    <br>
+    <div>
+        <table align="center" id="ContactTable" style="margin: 0px auto;" summary="This table displays contact records with respective actions to view, update, delete each record.">
+            <!--<thead>
+                <tr>
+                    <th></th>
+                    <th scope="col">
+                        Date
+                    </th>
+                    <th scope="col">
+                        Time
+                    </th>
+                    <th scope="col">
+                        Total Qty
+                    </th>
+                    <th scope="col">
+                        Reserved Qty
+                    </th>
+                    <th scope="col">
+                        Used Qty
+                    </th>
+                    <th scope="col">
+                        Adjust Qty (-/+)
+                    </th>
+                    <th scope="col">
+                        State
+                    </th>
+                    <th scope="col">
+                        ZIP
+                    </th>
+                    <th scope="col">
+                        Save
+                    </th>
+                    <th scope="col">
+                        Delete
+                    </th>
+                    <th style="display: none" scope="col">
+                        RMId
+                    </th>
+                </tr>
+            </thead>-->
+            <!--<tr id="dvtimeslot" style="display:none;">
+            <td colspan="13" style="height: 40px; font-size: 14px;">
+                <div >
+                    <label for="dptimeslot" style="font-family: 'Segoe UI'; padding-right: 7px;">
+                        Time Slot Filter :
+                    </label>
+                    <select id="dptimeslot" style="width: 80px;"></select>
+                </div>
+            </td>
+            </tr>-->
+            <tbody id="ContactTableBody">
+                <tr id="dvtimeslot" style="display: none;">
+                    <td style="height: 40px; font-size: 14px;" colspan="15">
+                        <div>
+                            <label style='padding-right: 7px; font-family: "Segoe UI";' for="dptimeslot">
+                                Time Slot Filter :
+                            </label>
+                            <select id="dptimeslot" style="width: 80px;"></select>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</body></html>

@@ -20,7 +20,9 @@ D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\De
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
 D:\Projects\WRS\Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.csprojResolveAssemblyReference.cache
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
-C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\Plugins\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\WRS.Plugins.WebAPI.pdb
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.csprojResolveAssemblyReference.cache
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.dll
+D:\NCS\WRS Plugins\WRSDataMigration 20170922 1500\WRS.Plugins.WebAPI\obj\Debug\WRS.Plugins.WebAPI.pdb

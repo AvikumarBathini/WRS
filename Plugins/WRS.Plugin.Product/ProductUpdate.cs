@@ -1,5 +1,4 @@
-﻿using Microsoft.Crm.Sdk.Messages;
-using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using System;
 using System.Collections.Generic;
@@ -43,26 +42,73 @@ namespace WRS.Plugin.Product
                 IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
                 try
                 {
-                    if (!targetEntity.Contains("wrs_sourcefrom"))
-                        return;
-                    if (targetEntity.GetAttributeValue<string>("wrs_sourcefrom").ToLower() == "nc")
+                    if (targetEntity.Attributes.ContainsKey("statecode"))
                     {
-                        Entity prodcut = service.Retrieve(targetEntity.LogicalName, targetEntity.Id, new ColumnSet("statecode", "statuscode", "wrs_published"));
-                        if (prodcut.Contains("statecode"))
+                        //get authentication info
+                        var authUserName = GetConfirurationByParaGroupAndKey(service, "WRS_API", "userName");
+                        var password = GetConfirurationByParaGroupAndKey(service, "WRS_API", "password");
+                        if (string.IsNullOrEmpty(authUserName) || string.IsNullOrEmpty(password))
                         {
-                            int statecode = prodcut.GetAttributeValue<OptionSetValue>("statecode").Value;
-                            int statuscode = prodcut.GetAttributeValue<OptionSetValue>("statuscode").Value;
-                            bool wrs_published = prodcut.Contains("wrs_published") ? prodcut.GetAttributeValue<bool>("wrs_published") : false;
-                            //If its Active, change to Under Revision
-                            if (statecode == 0 || (statuscode == 167320000 && wrs_published))
+                            throw new Exception("API authentication username and password can not null");
+                        }
+                        var getEncodeByte = Convert.FromBase64String(password);
+                        password = Encoding.UTF8.GetString(getEncodeByte);
+                        var customerId = GetConfirurationByParaGroupAndKey(service, "WRS_API", "customerId");
+
+                        var postEntity = context.PostEntityImages["PostImage"];
+                        var ncId = postEntity.GetAttributeValue<int>("wrs_id");
+                        if (ncId == 0) { throw new Exception("NC id can not be null"); };
+                        var status = targetEntity.GetAttributeValue<OptionSetValue>("statecode").Value;
+                        var requestEntity = new UpdateProductModel();
+                        requestEntity.ProductId = ncId;
+                        requestEntity.ApiSecretKey = Constants.WEBAPIURL.ApiSecretKey;
+                        if (status == 0)
+                        {
+                            requestEntity.IsPublish = true;
+                        }
+                        else
+                        {
+                            requestEntity.IsPublish = false;
+                        }
+                        requestEntity.CustomerId = string.IsNullOrEmpty(customerId) ? Constants.WEBAPIURL.CustomerId : Convert.ToInt32(customerId);
+                        var requestData = EntityToJson(requestEntity);//new JavaScriptSerializer().Serialize(requestEntity);//JsonConvert.SerializeObject(requestEntity);
+                        var requestApiUrl = GetApiDoaminName(service, Constants.WEBAPIURL.APIURL_UpdateProductPublishStatus);
+                        string[] userN = authUserName.Split('\\');
+                        string userName = string.Empty;
+                        string domain = string.Empty;
+                        if (userN.Length > 1)
+                        {
+                            userName = userN[1];
+                            domain = userN[0];
+                        }
+                        else
+                        {
+                            userName = authUserName;
+                        }
+                        //var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, authUserName.Split('\\')[1], password, authUserName.Split('\\')[0]);
+                        var response = HttpRequestUrl.PostSecurityRequest(requestApiUrl, requestData, userName, password, domain);
+                        if (!string.IsNullOrEmpty(response))
+                        {
+                            var product = new Entity(Constants.WRSEntityName.Entity_Product);
+                            product.Id = targetEntity.Id;
+                            if (response.Length >= 4000)
                             {
-                                EntityReference target = new EntityReference(targetEntity.LogicalName, targetEntity.Id);
-                                SetStateRequest request = new SetStateRequest();
-                                request.EntityMoniker = target;
-                                request.State = new OptionSetValue(3);
-                                request.Status = new OptionSetValue(3);
-                                service.Execute(request);
+                                product["wrs_apiresponse"] = response.Substring(0, 4000);
                             }
+                            else
+                            {
+                                product["wrs_apiresponse"] = response;
+                            }
+                            service.Update(product);
+                            var responseEntity = Deserialize<ResponseModel.UpdateProductPublishResult>(response);
+                            if (!responseEntity.IsSuccess)
+                            {
+                                throw new Exception("API to update failure. error message:" + responseEntity.Message);
+                            }
+                        }
+                        else
+                        {
+                            throw new Exception("API to update failure");
                         }
                     }
                 }

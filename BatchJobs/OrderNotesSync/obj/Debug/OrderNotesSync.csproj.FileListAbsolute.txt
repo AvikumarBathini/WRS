@@ -1,0 +1,11 @@
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\obj\Debug\OrderNotesSync.csprojResolveAssemblyReference.cache
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\OrderNotesSync.exe.config
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\OrderNotesSync.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\OrderNotesSync.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\obj\Debug\OrderNotesSync.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderNotesSync\obj\Debug\OrderNotesSync.pdb

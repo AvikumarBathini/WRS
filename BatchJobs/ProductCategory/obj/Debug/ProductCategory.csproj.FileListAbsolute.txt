@@ -1,0 +1,52 @@
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe.config
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\ProductCategory.pdb
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\InitialImport\ProductCategory\obj\Debug\ProductCategory.exe
+D:\Projects\WRS\DM\InitialImport\ProductCategory\obj\Debug\ProductCategory.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\ProductCategory.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\obj\Debug\ProductCategory.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\ProductCategory\obj\Debug\ProductCategory.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\ProductCategory.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\ProductCategory.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\Microsoft.IdentityModel.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\obj\Debug\ProductCategory.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\ProductCategory\obj\Debug\ProductCategory.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.exe.config
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.pdb
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.csprojResolveAssemblyReference.cache
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.exe
+C:\Users\ncs\Desktop\NCS VS Projects\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\ProductCategory.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.csprojResolveAssemblyReference.cache
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\ProductCategory\obj\Debug\ProductCategory.pdb

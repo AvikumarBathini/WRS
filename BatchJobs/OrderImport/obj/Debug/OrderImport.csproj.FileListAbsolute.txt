@@ -1,0 +1,50 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\NCS_WRS_DM\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\NCS_WRS_DM\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\NCS_WRS_DM\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\NCS_WRS_DM\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\NCS_WRS_DM\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\WRS Dev\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\WRS Dev\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\WRS Dev\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\WRS Dev\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\WRS Dev\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\WRS Dev\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\Projects\WRS\DM\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\Projects\WRS\DM\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\Projects\WRS\DM\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\Projects\WRS\DM\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\Projects\WRS\DM\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\NCS_WRS_DM\Fernando - 20170912\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\Projects\WRS\DM\Deployed One - DEV\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\Shared\Fernando\Latest Source Codes 20180302\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\OrderImport\bin\Debug\OrderImport.exe.config
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\OrderImport\bin\Debug\OrderImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\OrderImport\bin\Debug\OrderImport.pdb
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\OrderImport\obj\Debug\OrderImport.exe
+C:\Users\avikb\Source\Workspaces\NCS.MSCRMCC\WRS\Dev\WRS\BatchJob\OrderImport\obj\Debug\OrderImport.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\bin\Debug\OrderImport.exe.config
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\bin\Debug\OrderImport.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\bin\Debug\OrderImport.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\obj\Debug\OrderImport.exe
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\obj\Debug\OrderImport.pdb
+D:\NCS\Deployments\SyncJobs\InitialImport\InitialImport\OrderImport\obj\Debug\OrderImport.csprojResolveAssemblyReference.cache
